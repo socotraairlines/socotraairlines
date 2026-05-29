@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Socotra Airlines - مكتب السياحة</title>
+    <title>Socotra Airlines - مكتب السياحة | Travel Agency</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -11,100 +11,172 @@
       <div class="brand">
         <div class="logo-placeholder">Socotra</div>
         <div>
-          <h1>Socotra Airlines</h1>
-          <p>مكتب السفر والسياحة الرسمي</p>
+          <h1>
+            <span class="lang lang-ar">Socotra Airlines</span>
+            <span class="lang lang-en">Socotra Airlines</span>
+          </h1>
+          <p>
+            <span class="lang lang-ar">مكتب السفر والسياحة الرسمي</span>
+            <span class="lang lang-en">Official Travel &amp; Tourism Office</span>
+          </p>
         </div>
       </div>
 
       <div class="contact-box">
-        <p>للحجز والاستعلام:</p>
-        <a href="tel:+971509555151">00971 50 955 5151</a>
-        <a href="https://www.instagram.com/socotraairlines/" target="_blank" rel="noreferrer">تابعنا على إنستغرام</a>
+        <div class="lang-toggle">
+          <button id="btn-ar">العربية</button>
+          <button id="btn-en">English</button>
+        </div>
+        <p class="lang lang-ar">للحجز والاستعلام:</p>
+        <p class="lang lang-en">For bookings &amp; enquiries:</p>
+        <a class="phone-link" href="tel:+971509555151">00971 50 955 5151</a>
+        <a class="insta" href="https://www.instagram.com/socotraairlines/" target="_blank" rel="noreferrer">@socotraairlines</a>
       </div>
     </header>
 
     <main>
       <section class="hero">
         <div class="hero-text">
-          <p class="eyebrow">رحلات، حجوزات، وتأشيرات</p>
-          <h2>سافر بثقة مع Socotra Airlines</h2>
-          <p>
+          <p class="eyebrow lang lang-ar">رحلات، حجوزات، وتأشيرات</p>
+          <p class="eyebrow lang lang-en">Flights, bookings &amp; visas</p>
+
+          <h2>
+            <span class="lang lang-ar">سافر بثقة مع Socotra Airlines</span>
+            <span class="lang lang-en">Travel confidently with Socotra Airlines</span>
+          </h2>
+
+          <p class="lang lang-ar">
             نقدم لك خدمات سياحية متكاملة من حجوزات طيران وباقات سياحية داخلية وخارجية
             وخدمات تأشيرات شخصية وعائلية.
           </p>
-          <a class="btn" href="tel:+971509555151">اتصل الآن</a>
+          <p class="lang lang-en">We provide full travel services including flights, tour packages and visa assistance.</p>
+
+          <a class="btn phone-link" href="tel:+971509555151">
+            <span class="lang lang-ar">اتصل الآن</span>
+            <span class="lang lang-en">Call Now</span>
+          </a>
         </div>
       </section>
 
       <section class="cards-section">
         <article class="card">
-          <h3>خدماتنا</h3>
+          <h3>
+            <span class="lang lang-ar">خدماتنا</span>
+            <span class="lang lang-en">Our Services</span>
+          </h3>
           <ul>
-            <li>حجوزات طيران داخلية وخارجية</li>
-            <li>برامج سياحية مخصصة</li>
-            <li>استشارات تأشيرات</li>
-            <li>رحلات عائلية ورحلات شهر العسل</li>
+            <li class="lang lang-ar">حجوزات طيران داخلية وخارجية</li>
+            <li class="lang lang-en">Domestic &amp; International flight bookings</li>
+            <li class="lang lang-ar">برامج سياحية مخصصة</li>
+            <li class="lang lang-en">Custom tour packages</li>
+            <li class="lang lang-ar">استشارات تأشيرات</li>
+            <li class="lang lang-en">Visa consultancy</li>
           </ul>
         </article>
 
         <article class="card">
-          <h3>لماذا تختارنا؟</h3>
+          <h3>
+            <span class="lang lang-ar">لماذا تختارنا؟</span>
+            <span class="lang lang-en">Why Choose Us?</span>
+          </h3>
           <ul>
-            <li>أسعار تنافسية وخدمة سريعة</li>
-            <li>دعم واتساب مباشر</li>
-            <li>تنسيق كامل من لوحة إلى وجهتك</li>
-            <li>خبرة في الرحلات الجوية والسياحة</li>
+            <li class="lang lang-ar">أسعار تنافسية وخدمة سريعة</li>
+            <li class="lang lang-en">Competitive prices and fast service</li>
+            <li class="lang lang-ar">دعم واتساب مباشر</li>
+            <li class="lang lang-en">Direct WhatsApp support</li>
+            <li class="lang lang-ar">تنسيق كامل من اللوحة إلى وجهتك</li>
+            <li class="lang lang-en">Full coordination from booking to destination</li>
           </ul>
         </article>
       </section>
 
       <section class="about" id="about">
-        <h2>من نحن</h2>
-        <p>
+        <h2>
+          <span class="lang lang-ar">من نحن</span>
+          <span class="lang lang-en">About Us</span>
+        </h2>
+        <p class="lang lang-ar">
           Socotra Airlines هو مكتب سياحي متخصص في تنظيم الرحلات السياحية والطيران وخدمات التأشيرات.
           هدفنا هو أن نمنح عملاءنا رحلة مريحة وسهلة من التخطيط إلى العودة.
         </p>
+        <p class="lang lang-en">Socotra Airlines is a travel agency specialising in flights, tours and visa services. Our goal is to give clients a smooth and comfortable trip from planning to return.</p>
       </section>
 
       <section class="destinations" id="destinations">
-        <h2>وجهاتنا المميزة</h2>
+        <h2>
+          <span class="lang lang-ar">وجهاتنا المميزة</span>
+          <span class="lang lang-en">Featured Destinations</span>
+        </h2>
         <div class="destination-grid">
           <article>
-            <h3>اليمن</h3>
-            <p>عروض خاصة لزيارة صنعاء وعدن وتتعرف على جمال الجزيرة.</p>
+            <h3>
+              <span class="lang lang-ar">اليمن</span>
+              <span class="lang lang-en">Yemen</span>
+            </h3>
+            <p class="lang lang-ar">عروض خاصة لزيارة صنعاء وعدن وتتعرف على جمال الجزيرة.</p>
+            <p class="lang lang-en">Special offers to visit Sanaa, Aden and discover the island's beauty.</p>
           </article>
           <article>
-            <h3>الإمارات</h3>
-            <p>رحلات فاخرة إلى دبي وأبوظبي وحجوزات فندقية مميزة.</p>
+            <h3>
+              <span class="lang lang-ar">الإمارات</span>
+              <span class="lang lang-en">UAE</span>
+            </h3>
+            <p class="lang lang-ar">رحلات فاخرة إلى دبي وأبوظبي وحجوزات فندقية مميزة.</p>
+            <p class="lang lang-en">Luxury trips to Dubai and Abu Dhabi with premium hotel bookings.</p>
           </article>
           <article>
-            <h3>مصر</h3>
-            <p>برامج سياحية لمنطقة البحر الأحمر والأهرامات والقاهرة.</p>
+            <h3>
+              <span class="lang lang-ar">مصر</span>
+              <span class="lang lang-en">Egypt</span>
+            </h3>
+            <p class="lang lang-ar">برامج سياحية لمنطقة البحر الأحمر والأهرامات والقاهرة.</p>
+            <p class="lang lang-en">Tour programs for the Red Sea, the Pyramids and Cairo.</p>
           </article>
         </div>
       </section>
 
       <section class="contact" id="contact">
         <div class="contact-details">
-          <h2>تواصل معنا</h2>
-          <p>للحجز أو الاستشارة الرجاء التواصل عبر الرقم أو زيارة حساب إنستغرام.</p>
+          <h2>
+            <span class="lang lang-ar">تواصل معنا</span>
+            <span class="lang lang-en">Contact Us</span>
+          </h2>
+          <p class="lang lang-ar">للحجز أو الاستشارة الرجاء التواصل عبر الرقم أو زيارة حساب إنستغرام.</p>
+          <p class="lang lang-en">For bookings or enquiries please contact us via phone or visit our Instagram.</p>
           <p class="phone">00971 50 955 5151</p>
           <p class="instagram"><a href="https://www.instagram.com/socotraairlines/" target="_blank" rel="noreferrer">@socotraairlines</a></p>
         </div>
         <form>
-          <label>الاسم</label>
-          <input type="text" placeholder="الاسم الكامل" />
-          <label>الهاتف</label>
-          <input type="tel" placeholder="رقم الهاتف" />
-          <label>الرسالة</label>
-          <textarea placeholder="اكتب طلبك أو استفسارك هنا"></textarea>
-          <button type="submit">إرسال</button>
+          <label>
+            <span class="lang lang-ar">الاسم</span>
+            <span class="lang lang-en">Name</span>
+          </label>
+          <input type="text" placeholder="" />
+          <label>
+            <span class="lang lang-ar">الهاتف</span>
+            <span class="lang lang-en">Phone</span>
+          </label>
+          <input type="tel" placeholder="" />
+          <label>
+            <span class="lang lang-ar">الرسالة</span>
+            <span class="lang lang-en">Message</span>
+          </label>
+          <textarea placeholder=""></textarea>
+          <button type="submit">
+            <span class="lang lang-ar">إرسال</span>
+            <span class="lang lang-en">Send</span>
+          </button>
         </form>
       </section>
     </main>
 
     <footer>
-      <p>© 2026 Socotra Airlines - مكتب السياحة.</p>
+      <p>
+        <span class="lang lang-ar">© 2026 Socotra Airlines - مكتب السياحة.</span>
+        <span class="lang lang-en">© 2026 Socotra Airlines - Travel Agency.</span>
+      </p>
     </footer>
+
+    <script src="scripts.js"></script>
   </body>
 </html>

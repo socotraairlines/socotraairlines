@@ -85,6 +85,40 @@ a {
   font-weight: 600;
 }
 
+/* Language visibility and direction */
+.lang { display: none; }
+body.lang-ar .lang-ar { display: inline; }
+body.lang-en .lang-en { display: inline; }
+
+/* When showing block elements that have both languages, ensure spacing */
+body.lang-ar .lang-ar.block, body.lang-en .lang-en.block { display: block; }
+
+.lang-toggle {
+  display: inline-flex;
+  gap: 6px;
+  margin-bottom: 0.4rem;
+}
+
+.lang-toggle button {
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid #d0e7fb;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+/* Active language style will be toggled by JS */
+.lang-toggle button.active {
+  background: linear-gradient(180deg,#0f5c9c,#1c73c2);
+  color: #fff;
+  border-color: transparent;
+}
+
+/* Direction helpers for major layout switches */
+body.lang-ar { direction: rtl; text-align: right; }
+body.lang-en { direction: ltr; text-align: left; }
+
 .hero {
   padding: 4rem 1.5rem 3rem;
   text-align: center;
