@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Socotra Airlines logo</title>
+  <desc id="logoDesc">Professional Socotra Airlines logo with a dragon blood tree, waves, and an airplane symbol.</desc>
+  <defs>
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a57a1" />
+      <stop offset="100%" stop-color="#0b2b55" />
+    </linearGradient>
+    <linearGradient id="seaGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4ba7d8" />
+      <stop offset="100%" stop-color="#1a5c9b" />
+    </linearGradient>
+    <linearGradient id="treeGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b8d44" />
+      <stop offset="100%" stop-color="#205821" />
+    </linearGradient>
+  </defs>
+  <circle cx="300" cy="300" r="290" fill="#fff" stroke="#0f5c9c" stroke-width="20" />
+  <path d="M 60 380 C 150 320 200 340 300 340 C 400 340 460 300 540 340 L 540 440 C 480 420 420 440 300 440 C 180 440 80 460 60 440 Z" fill="url(#seaGradient)" />
+  <path d="M 125 370 C 195 330 260 340 300 350 C 340 360 395 340 470 365" fill="none" stroke="#def2ff" stroke-width="22" stroke-linecap="round" />
+  <path d="M 135 410 C 210 380 270 390 300 395 C 330 400 380 385 450 410" fill="none" stroke="#cff0ff" stroke-width="18" stroke-linecap="round" />
+  <path d="M 240 190 C 235 180 210 140 220 120 C 235 90 270 90 280 120 C 290 150 270 170 265 190 C 260 220 280 235 295 215 C 305 200 300 170 320 150 C 340 130 380 140 375 170 C 370 210 335 235 320 220 C 305 205 315 185 300 180 C 280 170 255 180 240 190 Z" fill="url(#treeGradient)" />
+  <path d="M 285 210 C 290 230 280 240 270 250 C 250 270 225 275 205 255 C 180 235 182 205 200 190 C 215 180 230 190 245 195 C 255 200 270 203 285 210 Z" fill="#2a4521" />
+  <path d="M 260 260 C 280 240 315 260 330 290 C 350 330 360 360 355 390 C 350 420 325 430 300 430 C 275 430 245 420 230 390 C 215 360 225 330 245 300 C 255 285 265 275 260 260 Z" fill="#2d5f24" />
+  <path d="M 365 165 L 540 100 L 560 120 L 380 190 Z" fill="#0372cc" opacity="0.9" />
+  <path d="M 375 170 L 520 110 L 535 125 L 385 190 Z" fill="#88c8ff" opacity="0.7" />
+  <path d="M 210 345 C 235 315 270 320 300 340" stroke="#fff" stroke-width="14" fill="none" stroke-linecap="round" />
+  <path d="M 260 400 C 300 360 340 380 360 405" stroke="#fff" stroke-width="12" fill="none" stroke-linecap="round" />
+</svg>

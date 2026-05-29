@@ -53,17 +53,13 @@ textarea {
   gap: 1rem;
 }
 
-.logo-placeholder {
+.logo-image {
   width: 62px;
   height: 62px;
-  display: grid;
-  place-items: center;
   border-radius: 22px;
-  background: linear-gradient(180deg, #0f5c9c 0%, #1c73c2 100%);
-  color: #fff;
-  font-weight: 800;
-  font-size: 1.2rem;
-  box-shadow: 0 16px 30px rgba(18, 81, 146, 0.2);
+  background: #fff;
+  box-shadow: 0 16px 30px rgba(18, 81, 146, 0.18);
+  object-fit: contain;
 }
 
 .brand-label {
