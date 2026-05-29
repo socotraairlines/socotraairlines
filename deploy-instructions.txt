@@ -1,0 +1,24 @@
+نشر الموقع (سريع) / Quick publish
+
+خيار GitHub (يوصي به):
+1. أنشئ مستودعًا على GitHub باسمك المفضل.
+2. ربط المستودع المحلي ثم دفع:
+
+   cd /Users/hussaito/SocotraAirlinesSite
+   git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
+   git branch -M main
+   git push -u origin main
+
+3. من إعدادات المستودع -> Pages -> اختر الفرع main، المسار root، ثم Save.
+
+Netlify (بدون Git):
+- ادخل: https://app.netlify.com/drop واسحب مجلد `SocotraAirlinesSite` لتحصل على رابط نشر تلقائي.
+
+Form submissions (contact form):
+- يمكنك ربط النموذج إلى Formspree أو خدمات مماثلة بإضافة action لعنصر form.
+
+If you want me to publish it for you, provide:
+- GitHub username
+- Personal Access Token (PAT) with `repo` scope (optional; I can guide you instead)
+
+I can push and enable GitHub Pages for you and return the public URL.
