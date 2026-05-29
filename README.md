@@ -30,3 +30,4 @@ If you want me to publish it for you (English):
 2. Quick Netlify option (no Git needed): go to https://app.netlify.com/drop and drag the `SocotraAirlinesSite` folder.
 
 If you want me to do the push and enable Pages for you, tell me which option you prefer and provide the details securely.
+# socotraairlines
