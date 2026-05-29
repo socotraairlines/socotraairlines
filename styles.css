@@ -98,41 +98,58 @@ textarea {
   border: 1px solid #d7e8f7;
 }
 
-.lang-toggle {
+.lang-select {
   display: inline-flex;
-  gap: 0.5rem;
 }
 
-.lang-toggle button {
-  padding: 0.65rem 1rem;
+.lang-select select {
+  min-width: 190px;
+  padding: 0.75rem 1rem;
   border-radius: 999px;
   border: 1px solid #d7e8f7;
-  background: #ffffff;
-  cursor: pointer;
-  font-weight: 700;
+  background: #fff;
   color: #38546c;
-  transition: background 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 0.25s ease, background 0.25s ease, color 0.25s ease;
 }
 
-.lang-toggle button.active {
-  background: #0f5c9c;
-  color: #fff;
-  border-color: transparent;
+.lang-select select:focus {
+  outline: none;
+  border-color: #0f5c9c;
+}
+
+.lang-select.fallback-english select {
+  color: #0f5c9c;
 }
 
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 4rem 1.5rem 2.5rem;
+  padding: 5rem 1.5rem 3rem;
+  background: linear-gradient(180deg, rgba(5, 18, 42, 0.82), rgba(5, 18, 42, 0.15)),
+    url("https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+  background-size: 110%;
+  color: #fff;
+  animation: heroBgShift 25s ease-in-out infinite;
 }
 
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at top left, rgba(31, 91, 168, 0.22), transparent 28%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.7));
+  background: radial-gradient(circle at top left, rgba(24, 98, 171, 0.24), transparent 28%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.05));
   pointer-events: none;
+}
+
+@keyframes heroBgShift {
+  0%, 100% {
+    background-position: center top;
+  }
+  50% {
+    background-position: center bottom;
+  }
 }
 
 .hero-container {
@@ -152,7 +169,7 @@ textarea {
 .eyebrow {
   display: inline-block;
   margin: 0 0 1rem;
-  color: #1b4da6;
+  color: #c7e4ff;
   font-size: 0.95rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -163,13 +180,13 @@ textarea {
   font-size: clamp(2.4rem, 5vw, 3.8rem);
   line-height: 1.02;
   letter-spacing: -0.04em;
-  color: #102841;
+  color: #fff;
 }
 
 .hero-copy p {
   margin: 1.4rem 0 1.8rem;
   max-width: 640px;
-  color: #4a657f;
+  color: rgba(237, 245, 255, 0.92);
   font-size: 1rem;
 }
 
@@ -287,6 +304,108 @@ textarea {
   padding: 2rem 1.5rem;
 }
 
+.destinations {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(247, 251, 255, 0.95)),
+    url("https://images.unsplash.com/photo-1519817650390-64a93db511d5?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+  background-blend-mode: overlay;
+  background-size: 120%;
+  animation: sectionBgFloat 35s ease-in-out infinite;
+}
+
+.travel-guide {
+  padding: 2rem 1.5rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.92));
+  border-radius: 32px;
+  margin: 2rem 0;
+  box-shadow: 0 24px 60px rgba(18, 78, 123, 0.08);
+}
+
+.guide-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.guide-grid article {
+  background: #fff;
+  border: 1px solid #e4ecf5;
+  border-radius: 24px;
+  padding: 1.6rem;
+  box-shadow: 0 16px 32px rgba(18, 78, 123, 0.06);
+}
+
+.guide-grid h3 {
+  margin: 0 0 0.85rem;
+  color: #0f5c9c;
+  font-size: 1.15rem;
+}
+
+.guide-grid p {
+  margin: 0;
+  color: #546f8d;
+  line-height: 1.75;
+}
+
+.guide-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.guide-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  min-height: 260px;
+  background: #000;
+  display: grid;
+  align-items: end;
+}
+
+.guide-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.guide-card:hover img {
+  transform: scale(1.08);
+}
+
+.guide-card-copy {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem 1.2rem;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(6, 16, 34, 0.92) 100%);
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.instagram-gallery {
+  padding: 2rem 1.5rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.82)),
+    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80") center/cover no-repeat;
+  background-blend-mode: soft-light;
+  background-size: 120%;
+  animation: sectionBgFloat 40s ease-in-out infinite reverse;
+}
+
+@keyframes sectionBgFloat {
+  0%, 100% {
+    background-position: center center;
+  }
+  50% {
+    background-position: center 10%;
+  }
+}
+
 .section-header {
   max-width: 760px;
   margin: 0 auto 2rem;
@@ -337,6 +456,9 @@ textarea {
 
 .instagram-gallery {
   padding: 2rem 1.5rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.82)),
+    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80") center/cover no-repeat;
+  background-blend-mode: soft-light;
 }
 
 .instagram-grid {

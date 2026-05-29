@@ -1,24 +1,32 @@
-// Language toggle script
+// Language selector script
 (function () {
-  const btnAr = document.getElementById('btn-ar');
-  const btnEn = document.getElementById('btn-en');
+  const langSelect = document.getElementById('lang-select');
+  const langContainer = document.querySelector('.lang-select');
+  const rtlLanguages = ['ar', 'he', 'fa', 'ur'];
 
   function setLang(lang) {
+    const bodyClass = lang === 'ar' ? 'lang-ar' : 'lang-en';
     document.body.classList.remove('lang-ar', 'lang-en');
-    document.body.classList.add(lang === 'ar' ? 'lang-ar' : 'lang-en');
-    // set active button
-    btnAr.classList.toggle('active', lang === 'ar');
-    btnEn.classList.toggle('active', lang === 'en');
-    // set html lang attribute and dir
-    document.documentElement.lang = (lang === 'ar') ? 'ar' : 'en';
-    document.documentElement.dir = (lang === 'ar') ? 'rtl' : 'ltr';
+    document.body.classList.add(bodyClass);
+    document.documentElement.lang = lang;
+    document.documentElement.dir = rtlLanguages.includes(lang) ? 'rtl' : 'ltr';
     localStorage.setItem('socotra_lang', lang);
+    if (lang !== 'ar') {
+      langContainer.classList.add('fallback-english');
+    } else {
+      langContainer.classList.remove('fallback-english');
+    }
+    if (langSelect) {
+      langSelect.value = lang;
+    }
   }
 
-  // initialize from storage or default to Arabic
   const saved = localStorage.getItem('socotra_lang') || 'ar';
   setLang(saved);
 
-  btnAr.addEventListener('click', function () { setLang('ar'); });
-  btnEn.addEventListener('click', function () { setLang('en'); });
+  if (langSelect) {
+    langSelect.addEventListener('change', function () {
+      setLang(this.value);
+    });
+  }
 })();
