@@ -1,33 +1,61 @@
-# Socotra Airlines - موقع مكتب السياحة / Travel Agency Site
+# socotraAirlines Landing Page
 
-موقع ثابت لصفحة مكتب السياحة Socotra Airlines. الموقع الآن ثنائي اللغة (العربية والإنجليزية) ويحتوي على زر تبديل اللغة.
+موقع ثابت وبسيط لحساب `socotraAirlines`، مخصص لعرض رحلات سقطرى وتحويل الزوار إلى عملاء محتملين عبر واتساب. الموقع يعمل بدون Backend ومناسب للرفع على Cloudflare Pages.
 
-كيفية النشر العام (العربية):
+## الملفات الموجودة
 
-1. إنشاء مستودع على GitHub باسم تختاره (مثلاً `SocotraAirlinesSite`).
-2. ربط المستودع المحلي بالبعيد ثم الدفع:
+- `index.html`: محتوى الموقع والأقسام الرئيسية.
+- `style.css`: تنسيق وتصميم الموقع المتجاوب.
+- `script.js`: وظائف واتساب، نموذج الحجز، LocalStorage، وتصدير CSV.
+- `README.md`: شرح المشروع وطريقة التعديل والرفع.
+- `assets/socotra-hero.png`: صورة الهيرو المستخدمة في الصفحة الرئيسية.
 
-```bash
-cd /Users/hussaito/SocotraAirlinesSite
-git remote add origin https://github.com/YOUR_USERNAME/SocotraAirlinesSite.git
-git branch -M main
-git push -u origin main
+## طريقة تعديل رقم الواتساب
+
+افتح ملف `script.js` وعدّل السطر التالي:
+
+```js
+const WHATSAPP_NUMBER = "971509555151";
 ```
 
-3. لتفعيل GitHub Pages: اذهب إلى إعدادات المستودع → Pages، اختر الفرع `main` و/أو المجلد `/ (root)` ثم اضغط Save. سيظهر الرابط العام بعد دقائق.
+كل أزرار واتساب في الموقع تعتمد على هذا الرقم.
 
-بدائل سريعة للنشر:
-- Netlify: ادخل إلى https://app.netlify.com/drop واسحب المجلد `SocotraAirlinesSite` لرفعه بسرعة.
-- Vercel: ربط المستودع ونشر تلقائيًا.
+## طريقة تعديل الأسعار
 
-If you want me to publish it for you (English):
+افتح ملف `index.html` وابحث عن قسم الأسعار:
 
-1. I can push the repository to your GitHub and enable GitHub Pages if you provide:
-	- Your GitHub username
-	- Desired repository name (e.g. `SocotraAirlinesSite`)
-	- A Personal Access Token (PAT) with `repo` scope (you can revoke it later). Alternatively, I can guide you step-by-step so you do not need to share credentials.
+```html
+<section class="section" id="pricing">
+```
 
-2. Quick Netlify option (no Git needed): go to https://app.netlify.com/drop and drag the `SocotraAirlinesSite` folder.
+ثم عدّل بطاقات الأسعار والنصوص الموجودة داخل هذا القسم.
 
-If you want me to do the push and enable Pages for you, tell me which option you prefer and provide the details securely.
-# socotraairlines
+## طريقة رفع الموقع على Cloudflare Pages
+
+1. افتح Cloudflare.
+2. ادخل إلى Workers & Pages.
+3. اضغط Create application.
+4. اختر Pages.
+5. اختر Direct Upload / Upload assets.
+6. ارفع مجلد المشروع الذي يحتوي على `index.html`.
+7. اضغط Deploy.
+
+## ملاحظة مهمة عن نموذج الطلبات
+
+نموذج الطلبات يحفظ البيانات محليًا في `LocalStorage` فقط، وليس في قاعدة بيانات خارجية. هذا يعني أن الطلبات تظهر على نفس الجهاز والمتصفح فقط.
+
+## طريقة اختبار الموقع
+
+1. افتح `index.html` في المتصفح.
+2. جرّب زر واتساب.
+3. جرّب إرسال النموذج.
+4. تأكد من ظهور الطلب في جدول الطلبات.
+5. جرّب تصدير CSV.
+
+## Business Portfolio ID
+
+Business Portfolio ID للحساب:
+
+`2862103524141198`
+
+هذا الرقم مرجعي لإدارة أعمال Meta ولا يظهر للزوار.

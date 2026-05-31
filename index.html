@@ -1,428 +1,313 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Socotra Airlines - مكتب السياحة | Travel Agency</title>
-    <meta name="description" content="Socotra Airlines travel agency - premium tours, flight bookings and visa services to Socotra Island and beyond." />
-    <meta property="og:title" content="Socotra Airlines - Travel Agency" />
-    <meta property="og:description" content="Premium tours, flight bookings and visa services to Socotra Island and beyond. Contact us on WhatsApp to book." />
-    <meta property="og:type" content="website" />
-    <link rel="icon" href="logo.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/socotraairlines/socotraairlines/gh-pages/favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="brand">
-        <img src="logo.svg" alt="Socotra Airlines logo" class="logo-image" />
-        <div>
-          <p class="brand-label">
-            <span class="lang lang-ar">مكتب سياحة</span>
-            <span class="lang lang-en">Travel Agency</span>
-          </p>
-          <h1>Socotra Airlines</h1>
-        </div>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="رحلات سقطرى 7 أيام مع socotraAirlines، برامج سياحية منظمة وأسعار واضحة وحجز عبر واتساب.">
+  <title>socotraAirlines | رحلات سقطرى</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="التنقل الرئيسي">
+      <a class="brand" href="#home">socotraAirlines</a>
+      <button class="nav-toggle" type="button" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">الرئيسية</a>
+        <a href="#why">لماذا سقطرى؟</a>
+        <a href="#programs">البرامج</a>
+        <a href="#pricing">الأسعار</a>
+        <a href="#includes">يشمل البرنامج</a>
+        <a href="#faq">الأسئلة الشائعة</a>
+        <a href="#booking">الحجز</a>
       </div>
+      <button class="btn btn-whatsapp nav-cta" type="button" data-whatsapp="hero">
+        احجز عبر واتساب
+      </button>
+    </nav>
+  </header>
 
-      <div class="header-actions">
-        <div class="lang-select">
-          <select id="lang-select" aria-label="Language selector">
-            <option value="ar">العربية</option>
-            <option value="en">English</option>
-            <option value="fr">Français</option>
-            <option value="es">Español</option>
-            <option value="de">Deutsch</option>
-            <option value="pt">Português</option>
-            <option value="ru">Русский</option>
-            <option value="zh">中文</option>
-            <option value="hi">हिन्दी</option>
-            <option value="tr">Türkçe</option>
-            <option value="it">Italiano</option>
-            <option value="nl">Nederlands</option>
-            <option value="id">Bahasa Indonesia</option>
-            <option value="bn">বাংলা</option>
-            <option value="ur">اردو</option>
-            <option value="fa">فارسی</option>
-            <option value="ja">日本語</option>
-            <option value="ko">한국어</option>
-            <option value="th">ไทย</option>
-            <option value="cs">Čeština</option>
-            <option value="el">Ελληνικά</option>
-            <option value="sv">Svenska</option>
-            <option value="da">Dansk</option>
-            <option value="no">Norsk</option>
-            <option value="pl">Polski</option>
-            <option value="fi">Suomi</option>
-            <option value="hu">Magyar</option>
-            <option value="uk">Українська</option>
-            <option value="he">עברית</option>
-            <option value="ms">Bahasa Melayu</option>
-          </select>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">منظم رحلات إلى جزيرة سقطرى</p>
+        <h1>رحلات سقطرى 7 أيام بتجربة منظمة لا تُنسى</h1>
+        <p class="hero-text">
+          اكتشف جزيرة سقطرى مع برنامج سياحي يشمل التنقلات، المرشد المحلي، الطعام،
+          التخييم، والتنسيق الكامل للرحلة.
+        </p>
+        <div class="price-highlight">
+          <strong>تبدأ الأسعار من 1,050$ للشخص للمجموعات</strong>
+          <span>بدون تذاكر الطيران</span>
         </div>
-        <div class="header-contact-links">
-          <a href="https://wa.me/971509555151?text=مرحبا%20Socotra%20Airlines" class="header-phone" target="_blank" rel="noreferrer">
-            <span class="lang lang-ar">واتساب</span>
-            <span class="lang lang-en">WhatsApp</span>
-          </a>
-          <a href="https://www.instagram.com/socotraairlines/" class="header-instagram" target="_blank" rel="noreferrer">
-            <span class="lang lang-ar">إنستغرام</span>
-            <span class="lang lang-en">Instagram</span>
-          </a>
-        </div>
-      </div>
-    </header>
-
-    <section class="hero">
-      <div class="hero-container">
-        <div class="hero-copy">
-          <span class="eyebrow lang lang-ar">خدمة شاملة ورحلات مميزة</span>
-          <span class="eyebrow lang lang-en">Premium travel services</span>
-
-          <h2>
-            <span class="lang lang-ar">نحن نجعل رحلتك إلى سقطرى أسهل وأكثر راحة</span>
-            <span class="lang lang-en">We make your trip to Socotra easier and more comfortable</span>
-          </h2>
-
-          <p class="lang lang-ar">
-            Socotra Airlines يوفر لك باقات سياحية فاخرة، حجوزات طيران متكاملة، وتحضير التأشيرات
-            بخبرة عالية ودعم سريع عبر واتساب.
-          </p>
-          <p class="lang lang-en">
-            Socotra Airlines delivers premium tour packages, seamless flight bookings and visa preparation with fast WhatsApp support.
-          </p>
-
-          <div class="hero-actions">
-            <a class="btn primary" href="https://wa.me/971509555151?text=مرحبا%20Socotra%20Airlines" target="_blank" rel="noreferrer">
-              <span class="lang lang-ar">اتصل واتساب الآن</span>
-              <span class="lang lang-en">Contact on WhatsApp</span>
-            </a>
-            <a class="btn secondary" href="https://www.instagram.com/socotraairlines/" target="_blank" rel="noreferrer">
-              <span class="lang lang-ar">تواصل عبر إنستغرام</span>
-              <span class="lang lang-en">Message on Instagram</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="hero-info">
-          <div class="feature-card">
-            <h3 class="lang lang-ar">خدمة VIP</h3>
-            <h3 class="lang lang-en">VIP Service</h3>
-            <p class="lang lang-ar">تنظيم شامل حتى الوصول إلى الفندق.</p>
-            <p class="lang lang-en">Full planning from booking to arrival.</p>
-          </div>
-          <div class="feature-card accent">
-            <h3 class="lang lang-ar">تواريخ ثابتة</h3>
-            <h3 class="lang lang-en">Fixed Tour Dates</h3>
-            <p class="lang lang-ar">مواعيد موثوقة ومحددة للموسم القادم.</p>
-            <p class="lang lang-en">Reliable scheduled departures for the next season.</p>
-          </div>
-          <div class="feature-card">
-            <h3 class="lang lang-ar">مساندة فورية</h3>
-            <h3 class="lang lang-en">Instant Support</h3>
-            <p class="lang lang-ar">دعم واتساب ومتابعة يومية لكل الحجز.</p>
-            <p class="lang lang-en">WhatsApp support and daily booking follow-up.</p>
-          </div>
+        <div class="hero-actions">
+          <button class="btn btn-whatsapp" type="button" data-whatsapp="hero">احجز عبر واتساب</button>
+          <a class="btn btn-secondary" href="#programs">شاهد البرامج</a>
         </div>
       </div>
     </section>
 
-    <main>
-      <section class="stats-section">
-        <div class="stats-grid">
-          <article>
-            <span>95%</span>
-            <p class="lang lang-ar">رضا العملاء</p>
-            <p class="lang lang-en">Customer satisfaction</p>
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section-heading">
+          <span>وجهة مختلفة</span>
+          <h2>لماذا تختار سقطرى؟</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="card"><h3>طبيعة نادرة</h3><p>جزيرة بتنوع طبيعي لا يشبه أي وجهة أخرى في المنطقة.</p></article>
+          <article class="card"><h3>شواطئ ساحرة</h3><p>مياه فيروزية ورمال هادئة تمنحك لحظات استرخاء حقيقية.</p></article>
+          <article class="card"><h3>أشجار دم الأخوين</h3><p>رمز سقطرى الأجمل وتجربة مشاهدة لا تنسى لمحبي الطبيعة.</p></article>
+          <article class="card"><h3>مغامرات وتخييم</h3><p>أيام بين الجبال والوديان والنجوم ضمن تنظيم مريح وواضح.</p></article>
+          <article class="card"><h3>تصوير استثنائي</h3><p>مشاهد مناسبة لصناعة ذكريات وصور مبهرة من كل زاوية.</p></article>
+          <article class="card"><h3>بعيدًا عن الزحام</h3><p>رحلة هادئة لعشاق الأماكن البكر والتجارب الأصيلة.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="programs">
+      <div class="container">
+        <div class="section-heading">
+          <span>اختر برنامجك</span>
+          <h2>برامج رحلات سقطرى</h2>
+        </div>
+        <div class="program-grid">
+          <article class="program-card">
+            <h3>رحلة 4 أيام</h3>
+            <p>خيار سريع لاكتشاف أبرز معالم سقطرى خلال وقت قصير.</p>
+            <strong>مناسبة لمن:</strong>
+            <p>المسافرين الذين لديهم وقت محدود.</p>
+            <ul>
+              <li>استقبال من المطار</li>
+              <li>تنقلات داخل الجزيرة</li>
+              <li>مرشد محلي</li>
+              <li>جدول زيارات مختصر</li>
+              <li>دعم أثناء الرحلة</li>
+            </ul>
+            <button class="btn btn-whatsapp" type="button" data-whatsapp="program-4">استفسر عبر واتساب</button>
           </article>
-          <article>
-            <span>30+</span>
-            <p class="lang lang-ar">رحلات مخططة</p>
-            <p class="lang lang-en">Planned trips</p>
+          <article class="program-card featured">
+            <span class="badge">الأكثر طلبًا</span>
+            <h3>رحلة 7 أيام</h3>
+            <p>البرنامج الأساسي والأفضل لاكتشاف سقطرى براحة وتجربة أعمق.</p>
+            <strong>مناسبة لمن:</strong>
+            <p>الأصدقاء، العائلات، ومحبي الطبيعة والتصوير.</p>
+            <ul>
+              <li>استقبال من المطار</li>
+              <li>تنقلات داخل الجزيرة</li>
+              <li>مرشد محلي</li>
+              <li>طعام</li>
+              <li>تخييم</li>
+              <li>تنظيم كامل للرحلة</li>
+            </ul>
+            <button class="btn btn-whatsapp" type="button" data-whatsapp="program-7">استفسر عبر واتساب</button>
           </article>
-          <article>
-            <span>12</span>
-            <p class="lang lang-ar">وجهات مميزة</p>
-            <p class="lang lang-en">Featured destinations</p>
+          <article class="program-card">
+            <h3>رحلة خاصة حسب الطلب</h3>
+            <p>برنامج مرن يتم تصميمه حسب عدد الأشخاص، مستوى الراحة، وتاريخ السفر.</p>
+            <strong>مناسبة لمن:</strong>
+            <p>العائلات، الأزواج، والمجموعات الخاصة.</p>
+            <ul>
+              <li>جدول مخصص</li>
+              <li>مرونة في البرنامج</li>
+              <li>تنسيق خاص</li>
+              <li>دعم قبل وأثناء الرحلة</li>
+            </ul>
+            <button class="btn btn-whatsapp" type="button" data-whatsapp="custom">اطلب برنامج خاص عبر واتساب</button>
           </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="services" id="services">
-        <div class="section-header">
-          <h2>
-            <span class="lang lang-ar">خدماتنا الأساسية</span>
-            <span class="lang lang-en">Our Core Services</span>
-          </h2>
-          <p class="lang lang-ar">نقدم حلول سفر متكاملة من البداية إلى النهاية.</p>
-          <p class="lang lang-en">We deliver end-to-end travel solutions tailored to your needs.</p>
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-heading">
+          <span>أسعار واضحة</span>
+          <h2>أسعار برنامج سقطرى 7 أيام بدون تذاكر الطيران</h2>
+          <p>تبدأ الأسعار من 1,050$ للشخص للمجموعات. كلما زاد عدد المسافرين، انخفض السعر للفرد.</p>
         </div>
-
-        <div class="service-grid">
-          <article>
-            <h3>
-              <span class="lang lang-ar">حجوزات طيران</span>
-              <span class="lang lang-en">Flight bookings</span>
-            </h3>
-            <p class="lang lang-ar">أفضل الأسعار والرحلات المباشرة إلى الوجهات السياحية.</p>
-            <p class="lang lang-en">Best fares and direct flights to top destinations.</p>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>رحلة خاصة</h3>
+            <p class="people">1 - 2</p>
+            <p class="price">من 2,250$ للشخص</p>
+            <p>خصوصية أكبر وجدول مرن يناسب الأزواج أو المسافرين الفرديين.</p>
           </article>
-          <article>
-            <h3>
-              <span class="lang lang-ar">برامج سياحية</span>
-              <span class="lang lang-en">Tour packages</span>
-            </h3>
-            <p class="lang lang-ar">رحلات مخصصة تجمع بين الراحة والمغامرة.</p>
-            <p class="lang lang-en">Custom itineraries combining comfort and adventure.</p>
+          <article class="price-card highlighted">
+            <h3>قروب صغير</h3>
+            <p class="people">3 - 6</p>
+            <p class="price">من 1,650$ للشخص</p>
+            <p>مناسب للأصدقاء والعائلات الصغيرة مع توازن بين الراحة والسعر.</p>
           </article>
-          <article>
-            <h3>
-              <span class="lang lang-ar">تأشيرات</span>
-              <span class="lang lang-en">Visa services</span>
-            </h3>
-            <p class="lang lang-ar">إجراءات تأشيرات مهنية وسريعة لكل انواع السفر.</p>
-            <p class="lang lang-en">Professional and fast visa handling for all travel needs.</p>
-          </article>
-          <article>
-            <h3>
-              <span class="lang lang-ar">استشارات مخصصة</span>
-              <span class="lang lang-en">Personal consulting</span>
-            </h3>
-            <p class="lang lang-ar">فريق خبراء لمساعدتك في اختيار أفضل برنامج.</p>
-            <p class="lang lang-en">Expert advice to help you choose the perfect program.</p>
+          <article class="price-card">
+            <h3>قروب اقتصادي</h3>
+            <p class="people">7 - 12</p>
+            <p class="price">من 1,050$ للشخص</p>
+            <p>أفضل خيار للحصول على أقل سعر للفرد ضمن مجموعة.</p>
           </article>
         </div>
-      </section>
+        <p class="note">
+          الأسعار بدون تذاكر الطيران، وقد تختلف حسب الموسم، توفر الخدمات، ونوع البرنامج.
+          للحصول على عرض نهائي، تواصل معنا عبر واتساب.
+        </p>
+        <div class="center">
+          <button class="btn btn-whatsapp" type="button" data-whatsapp="quote">احصل على عرض السعر عبر واتساب</button>
+        </div>
+      </div>
+    </section>
 
-      <section class="announcement">
-        <div class="container">
-          <div class="announcement-header">
-            <h3 class="lang lang-ar">تواريخ موسم 2026-2027</h3>
-            <h3 class="lang lang-en">Season 2026-2027 Dates</h3>
+    <section class="section section-tint" id="includes">
+      <div class="container split">
+        <div>
+          <div class="section-heading align-start">
+            <span>تفاصيل مهمة</span>
+            <h2>ماذا يشمل برنامج الرحلة؟</h2>
           </div>
-          <p class="lang lang-ar">احجز مقعدك الآن في الرحلات الموثوقة لموسم سقطرى المقبل.</p>
-          <p class="lang lang-en">Reserve your spot now on the confirmed Socotra season departures.</p>
-
-          <ul class="dates-list">
-            <li><span class="lang lang-ar">6 أكتوبر - 13 أكتوبر</span><span class="lang lang-en">6 Oct - 13 Oct</span></li>
-            <li><span class="lang lang-ar">13 أكتوبر - 20 أكتوبر</span><span class="lang lang-en">13 Oct - 20 Oct</span></li>
-            <li><span class="lang lang-ar">20 أكتوبر - 27 أكتوبر</span><span class="lang lang-en">20 Oct - 27 Oct</span></li>
-            <li><span class="lang lang-ar">27 أكتوبر - 3 نوفمبر</span><span class="lang lang-en">27 Oct - 3 Nov</span></li>
-            <li><span class="lang lang-ar">10 نوفمبر - 17 نوفمبر</span><span class="lang lang-en">10 Nov - 17 Nov</span></li>
-            <li><span class="lang lang-ar">8 ديسمبر - 15 ديسمبر</span><span class="lang lang-en">8 Dec - 15 Dec</span></li>
+          <div class="include-grid">
+            <span>التأشيرة</span>
+            <span>الاستقبال من المطار</span>
+            <span>التنقلات داخل الجزيرة</span>
+            <span>مرشد سياحي محلي</span>
+            <span>الطعام</span>
+            <span>التخييم أو الإقامة حسب البرنامج</span>
+            <span>تنظيم كامل للرحلة</span>
+            <span>دعم قبل وأثناء الرحلة</span>
+          </div>
+        </div>
+        <aside class="not-included">
+          <h3>لا يشمل</h3>
+          <ul>
+            <li>تذاكر الطيران</li>
+            <li>المصاريف الشخصية</li>
+            <li>أي خدمات إضافية غير مذكورة في العرض النهائي</li>
           </ul>
+        </aside>
+      </div>
+    </section>
 
-          <div class="announcement-cta">
-            <a class="btn primary" href="https://wa.me/971509555151?text=مرحبا%20Socotra%20Airlines" target="_blank" rel="noreferrer">
-              <span class="lang lang-ar">احجز عبر واتساب</span>
-              <span class="lang lang-en">Book via WhatsApp</span>
-            </a>
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span>ثقة وتجارب</span>
+          <h2>تجارب المسافرين معنا</h2>
+        </div>
+        <div class="testimonial-grid">
+          <blockquote class="card">
+            <p>كانت رحلة منظمة جدًا، من الاستقبال حتى آخر يوم. سقطرى أجمل من الصور بكثير.</p>
+            <cite>مسافر من الإمارات</cite>
+          </blockquote>
+          <blockquote class="card">
+            <p>أكثر ما أعجبني هو ترتيب البرنامج والمرشد المحلي. تجربة مختلفة فعلًا.</p>
+            <cite>مسافرة من السعودية</cite>
+          </blockquote>
+          <blockquote class="card">
+            <p>رحلة ممتازة للأصدقاء ومحبي الطبيعة والتصوير. كل شيء كان واضحًا ومنظمًا.</p>
+            <cite>مجموعة أصدقاء</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="faq">
+      <div class="container">
+        <div class="section-heading">
+          <span>قبل الحجز</span>
+          <h2>الأسئلة الشائعة</h2>
+        </div>
+        <div class="faq-list">
+          <details><summary>ما أفضل وقت لزيارة سقطرى؟</summary><p>عادةً أفضل وقت يكون خلال موسم الرحلات عندما تكون الأجواء مناسبة للتنقل والاستمتاع بالطبيعة. تواصل معنا لمعرفة التواريخ المتاحة.</p></details>
+          <details><summary>هل الأسعار تشمل تذاكر الطيران؟</summary><p>لا، الأسعار المعروضة بدون تذاكر الطيران.</p></details>
+          <details><summary>هل الرحلة مناسبة للعائلات؟</summary><p>نعم، يمكن ترتيب برنامج مناسب للعائلات حسب عدد الأشخاص ومستوى الراحة المطلوب.</p></details>
+          <details><summary>هل يمكن عمل رحلة خاصة؟</summary><p>نعم، نوفر رحلات خاصة حسب الطلب للأفراد، الأزواج، العائلات، والمجموعات.</p></details>
+          <details><summary>كيف يتم الحجز؟</summary><p>يمكنك التواصل عبر واتساب، ثم نرسل لك البرنامج والتفاصيل والعرض النهائي حسب عدد الأشخاص وتاريخ السفر.</p></details>
+          <details><summary>هل السعر يتغير حسب عدد الأشخاص؟</summary><p>نعم، كلما زاد عدد المسافرين، انخفض السعر للفرد.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="booking">
+      <div class="container booking-layout">
+        <div>
+          <div class="section-heading align-start">
+            <span>ابدأ التواصل</span>
+            <h2>اطلب عرض رحلتك</h2>
           </div>
+          <p class="booking-intro">عبئ البيانات وسيتم تجهيز رسالة واتساب تلقائيًا لإكمال التواصل مع فريق الحجز.</p>
+          <form class="booking-form" id="bookingForm">
+            <label>الاسم <input type="text" id="name" name="name" autocomplete="name" required placeholder="اكتب اسمك"></label>
+            <label>رقم الواتساب <input type="tel" id="phone" name="phone" autocomplete="tel" required placeholder="مثال: 9715XXXXXXX"></label>
+            <label>عدد الأشخاص <input type="number" id="people" name="people" min="1" max="50" required placeholder="مثال: 4"></label>
+            <label>تاريخ السفر المتوقع <input type="date" id="travelDate" name="travelDate" required></label>
+            <label>نوع الرحلة
+              <select id="tripType" name="tripType">
+                <option value="رحلة خاصة">رحلة خاصة</option>
+                <option value="قروب صغير">قروب صغير</option>
+                <option value="قروب اقتصادي">قروب اقتصادي</option>
+                <option value="غير محدد">غير محدد</option>
+              </select>
+            </label>
+            <label class="full">ملاحظات <textarea id="notes" name="notes" rows="4" placeholder="اكتب أي تفاصيل إضافية"></textarea></label>
+            <p class="form-message" id="formMessage" role="status"></p>
+            <button class="btn btn-whatsapp full" type="submit">إرسال الطلب عبر واتساب</button>
+          </form>
         </div>
-      </section>
-
-      <section class="destinations" id="destinations">
-        <div class="section-header">
-          <h2>
-            <span class="lang lang-ar">وجهاتنا المميزة</span>
-            <span class="lang lang-en">Featured Destinations</span>
-          </h2>
-          <p class="lang lang-ar">اختياراتنا لأفضل الرحلات السياحية القريبة والعالمية.</p>
-          <p class="lang lang-en">Our top curated trips from local tours to international escapes.</p>
-        </div>
-
-        <div class="destination-grid">
-          <article style="background-image: url('https://raw.githubusercontent.com/socotraairlines/socotraairlines/gh-pages/socotra-island.jpg');">
-            <div class="article-content">
-              <h3>
-                <span class="lang lang-ar">سقطرى</span>
-                <span class="lang lang-en">Socotra</span>
-              </h3>
-              <p class="lang lang-ar">اكتشف الجزيرة المذهلة ومناظرها الساحرة مع تجربة سفر فاخرة.</p>
-              <p class="lang lang-en">Explore the magical island and its stunning landscapes in luxury.</p>
-            </div>
-          </article>
-          <article style="background-image: url('https://raw.githubusercontent.com/socotraairlines/socotraairlines/gh-pages/dragon-tree.jpg');">
-            <div class="article-content">
-              <h3>
-                <span class="lang lang-ar">دبي</span>
-                <span class="lang lang-en">Dubai</span>
-              </h3>
-              <p class="lang lang-ar">رحلات فندقية وسياحية مع تنظيم كامل في دبي.</p>
-              <p class="lang lang-en">Complete hotel and tour packages in Dubai.</p>
-            </div>
-          </article>
-          <article style="background-image: url('https://raw.githubusercontent.com/socotraairlines/socotraairlines/gh-pages/beach-socotra.jpg');">
-            <div class="article-content">
-              <h3>
-                <span class="lang lang-ar">القاهرة</span>
-                <span class="lang lang-en">Cairo</span>
-              </h3>
-              <p class="lang lang-ar">برامج سياحية ثقافية وزيارات إلى الأهرامات والمواقع التاريخية.</p>
-              <p class="lang lang-en">Cultural tours and visits to the pyramids and historic sites.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="travel-guide" id="travel-guide">
-        <div class="section-header">
-          <h2>
-            <span class="lang lang-ar">دليل السفر إلى سقطرى</span>
-            <span class="lang lang-en">Socotra Travel Guide</span>
-          </h2>
-          <p class="lang lang-ar">استعد لرحلة ساحرة تحتضن الطبيعة الفريدة والتراث المحلي.</p>
-          <p class="lang lang-en">Prepare for a magical journey through unique nature and rich local culture.</p>
-        </div>
-
-        <div class="guide-grid">
-          <article>
-            <h3>
-              <span class="lang lang-ar">مناظر طبيعية خارج هذا العالم</span>
-              <span class="lang lang-en">Otherworldly landscapes</span>
-            </h3>
-            <p class="lang lang-ar">سقطرى تشتهر بأشجار دم التنين وتكويناتها الصخرية الغريبة التي لا تُنسى.</p>
-            <p class="lang lang-en">Socotra is famous for dragon blood trees and surreal rock formations you won't forget.</p>
-          </article>
-          <article>
-            <h3>
-              <span class="lang lang-ar">أفضل أوقات الزيارة</span>
-              <span class="lang lang-en">Best time to visit</span>
-            </h3>
-            <p class="lang lang-ar">اختر الموسم بين أكتوبر ونوفمبر أو فبراير ومارس للحصول على جو معتدل ومياه هادئة.</p>
-            <p class="lang lang-en">Choose October–November or February–March for mild weather and calm seas.</p>
-          </article>
-          <article>
-            <h3>
-              <span class="lang lang-ar">نصائح السفر</span>
-              <span class="lang lang-en">Traveler tips</span>
-            </h3>
-            <p class="lang lang-ar">اصطحب واقي الشمس، مياه كافية، وحافظ على سرعة اتصالك بتنسيق الرحلات البرية المحلية.</p>
-            <p class="lang lang-en">Bring sun protection, enough water, and stay connected for local overland transfers.</p>
-          </article>
-        </div>
-
-        <div class="guide-gallery">
-          <article class="guide-card">
-            <img src="https://images.unsplash.com/photo-1519817650390-64a93db511d5?auto=format&fit=crop&w=900&q=80" alt="Socotra landscape with dragon blood tree" />
-            <div class="guide-card-copy">
-              <span class="lang lang-ar">دم التنين</span>
-              <span class="lang lang-en">Dragon blood tree</span>
-            </div>
-          </article>
-          <article class="guide-card">
-            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80" alt="Socotra beach and rock formations" />
-            <div class="guide-card-copy">
-              <span class="lang lang-ar">شواطئ ساحرة</span>
-              <span class="lang lang-en">Magical beaches</span>
-            </div>
-          </article>
-          <article class="guide-card">
-            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="Socotra island travel and adventure" />
-            <div class="guide-card-copy">
-              <span class="lang lang-ar">مغامرة برية</span>
-              <span class="lang lang-en">Island adventure</span>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="instagram-gallery" id="instagram">
-        <div class="section-header">
-          <h2>
-            <span class="lang lang-ar">صور من إنستغرام</span>
-            <span class="lang lang-en">Instagram Gallery</span>
-          </h2>
-          <p class="lang lang-ar">شاهد أحدث صور السفر والتجارب من حسابنا الرسمي.</p>
-          <p class="lang lang-en">View the latest travel moments from our official account.</p>
-        </div>
-
-        <div class="instagram-grid">
-          <a class="insta-card" href="https://www.instagram.com/socotraairlines/" target="_blank" rel="noreferrer">
-            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Socotra Airlines Instagram photo 1" />
-            <div class="insta-overlay">
-              <span>@socotraairlines</span>
-              <span class="lang lang-ar">عرض على إنستغرام</span>
-              <span class="lang lang-en">View on Instagram</span>
-            </div>
-          </a>
-          <a class="insta-card" href="https://www.instagram.com/socotraairlines/" target="_blank" rel="noreferrer">
-            <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80" alt="Socotra Airlines Instagram photo 2" />
-            <div class="insta-overlay">
-              <span>@socotraairlines</span>
-              <span class="lang lang-ar">عرض على إنستغرام</span>
-              <span class="lang lang-en">View on Instagram</span>
-            </div>
-          </a>
-          <a class="insta-card" href="https://www.instagram.com/socotraairlines/" target="_blank" rel="noreferrer">
-            <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=800&q=80" alt="Socotra Airlines Instagram photo 3" />
-            <div class="insta-overlay">
-              <span>@socotraairlines</span>
-              <span class="lang lang-ar">عرض على إنستغرام</span>
-              <span class="lang lang-en">View on Instagram</span>
-            </div>
-          </a>
-          <a class="insta-card" href="https://www.instagram.com/socotraairlines/" target="_blank" rel="noreferrer">
-            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" alt="Socotra Airlines Instagram photo 4" />
-            <div class="insta-overlay">
-              <span>@socotraairlines</span>
-              <span class="lang lang-ar">عرض على إنستغرام</span>
-              <span class="lang lang-en">View on Instagram</span>
-            </div>
-          </a>
-          <a class="insta-card" href="https://www.instagram.com/socotraairlines/" target="_blank" rel="noreferrer">
-            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80" alt="Socotra Airlines Instagram photo 5" />
-            <div class="insta-overlay">
-              <span>@socotraairlines</span>
-              <span class="lang lang-ar">عرض على إنستغرام</span>
-              <span class="lang lang-en">View on Instagram</span>
-            </div>
-          </a>
-          <a class="insta-card" href="https://www.instagram.com/socotraairlines/" target="_blank" rel="noreferrer">
-            <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80" alt="Socotra Airlines Instagram photo 6" />
-            <div class="insta-overlay">
-              <span>@socotraairlines</span>
-              <span class="lang lang-ar">عرض على إنستغرام</span>
-              <span class="lang lang-en">View on Instagram</span>
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <section class="contact" id="contact">
-        <div class="contact-details">
-          <h2>
-            <span class="lang lang-ar">تواصل معنا</span>
-            <span class="lang lang-en">Contact Us</span>
-          </h2>
-          <p class="lang lang-ar">للاستفسارات والحجوزات، تواصل معنا عبر واتساب أو إنستغرام فقط.</p>
-          <p class="lang lang-en">For inquiries and bookings, contact us only via WhatsApp or Instagram.</p>
-          <div class="contact-meta">
+        <aside class="local-panel">
+          <div class="panel-header">
             <div>
-              <span class="label lang lang-ar">واتساب</span>
-              <span class="label lang lang-en">WhatsApp</span>
-              <p class="value"><a href="https://wa.me/971509555151?text=مرحبا%20Socotra%20Airlines" target="_blank" rel="noreferrer">+971 50 955 5151</a></p>
+              <span>LocalStorage</span>
+              <h2>طلبات الحجز المحلية</h2>
             </div>
-            <div>
-              <span class="label lang lang-ar">إنستغرام</span>
-              <span class="label lang lang-en">Instagram</span>
-              <p class="value"><a href="https://www.instagram.com/socotraairlines/" target="_blank" rel="noreferrer">@socotraairlines</a></p>
+            <div class="panel-actions">
+              <button class="btn btn-small btn-secondary" type="button" id="exportCsv">تصدير CSV</button>
+              <button class="btn btn-small btn-danger" type="button" id="clearLeads">حذف كل الطلبات</button>
             </div>
           </div>
-        </div>
-      </section>
-    </main>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>الاسم</th>
+                  <th>الواتساب</th>
+                  <th>عدد الأشخاص</th>
+                  <th>التاريخ</th>
+                  <th>نوع الرحلة</th>
+                  <th>الحالة</th>
+                </tr>
+              </thead>
+              <tbody id="leadsTable"></tbody>
+            </table>
+          </div>
+          <p class="note small">هذه البيانات محفوظة محليًا على هذا الجهاز فقط وليست قاعدة بيانات سحابية.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
 
-    <footer>
-      <p>
-        <span class="lang lang-ar">© 2026 Socotra Airlines. كل الحقوق محفوظة.</span>
-        <span class="lang lang-en">© 2026 Socotra Airlines. All rights reserved.</span>
-      </p>
-    </footer>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>socotraAirlines</h2>
+        <p>منظم رحلات إلى جزيرة سقطرى، نساعدك في بناء تجربة سفر منظمة من البداية حتى نهاية الرحلة.</p>
+      </div>
+      <div>
+        <h3>تواصل</h3>
+        <p>واتساب: <a href="https://wa.me/971509555151" target="_blank" rel="noopener">+971 50 955 5151</a></p>
+        <p>إنستجرام: <a href="https://instagram.com/socotraAirlines" target="_blank" rel="noopener">@socotraAirlines</a></p>
+      </div>
+      <div>
+        <h3>روابط سريعة</h3>
+        <a href="#why">لماذا سقطرى؟</a>
+        <a href="#programs">البرامج</a>
+        <a href="#pricing">الأسعار</a>
+        <a href="#booking">الحجز</a>
+      </div>
+    </div>
+    <p class="copyright">© 2026 socotraAirlines. All rights reserved.</p>
+  </footer>
 
-    <script src="scripts.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
