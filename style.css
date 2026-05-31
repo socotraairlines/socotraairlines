@@ -273,47 +273,6 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.why-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  max-width: 720px;
-  margin: 0 auto 24px;
-}
-
-.why-gallery figure {
-  position: relative;
-  aspect-ratio: 1 / 1;
-  margin: 0;
-  overflow: hidden;
-  border-radius: var(--radius);
-  background: var(--sea-dark);
-  box-shadow: var(--shadow);
-}
-
-.why-gallery img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  transition: transform 0.35s ease;
-}
-
-.why-gallery figure:hover img {
-  transform: scale(1.04);
-}
-
-.why-gallery figcaption {
-  position: absolute;
-  inset-inline: 0;
-  bottom: 0;
-  padding: 30px 12px 12px;
-  color: var(--white);
-  font-weight: 800;
-  font-size: 0.92rem;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(8, 52, 59, 0.78));
-}
-
 .program-grid,
 .pricing-grid,
 .testimonial-grid {
@@ -676,9 +635,6 @@ td {
     transform: none;
   }
 
-  .why-gallery {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 @media (max-width: 640px) {
@@ -702,15 +658,6 @@ td {
 
   .section {
     padding: 64px 0;
-  }
-
-  .why-gallery {
-    gap: 8px;
-  }
-
-  .why-gallery figcaption {
-    padding: 22px 8px 8px;
-    font-size: 0.76rem;
   }
 
   .include-grid,
