@@ -19,7 +19,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: linear-gradient(180deg, #eef6ff 0%, #f7fbff 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #f0f5ff 50%, #ffffff 100%);
 }
 
 a {
@@ -123,8 +123,8 @@ textarea {
   position: relative;
   overflow: hidden;
   padding: 5rem 1.5rem 3rem;
-  background: linear-gradient(180deg, rgba(5, 18, 42, 0.82), rgba(5, 18, 42, 0.15)),
-    url("https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+  background: linear-gradient(135deg, rgba(10, 60, 130, 0.75), rgba(30, 100, 180, 0.65)),
+    url("socotra-island.jpg") center/cover no-repeat;
   background-size: 110%;
   color: #fff;
   animation: heroBgShift 25s ease-in-out infinite;
@@ -435,10 +435,39 @@ textarea {
   box-shadow: 0 20px 36px rgba(18, 78, 123, 0.06);
 }
 
+.destination-grid article {
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  min-height: 280px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.destination-grid article::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+  z-index: 1;
+}
+
+.destination-grid article .article-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+
 .services h3,
 .destination-grid h3 {
   margin: 0 0 0.85rem;
   color: #0f5c9c;
+}
+
+.destination-grid h3 {
+  color: #fff;
 }
 
 .services p,
@@ -448,6 +477,10 @@ textarea {
   margin: 0;
   color: #516e87;
   line-height: 1.8;
+}
+
+.destination-grid p {
+  color: #fff;
 }
 
 .instagram-gallery {
