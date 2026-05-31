@@ -62,23 +62,10 @@ textarea {
 }
 
 .brand {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1px;
   font-weight: 800;
-  font-size: 1rem;
-  line-height: 1.15;
+  font-size: 1.25rem;
   color: var(--sea-dark);
   white-space: nowrap;
-}
-
-.brand img {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 10px rgba(20, 55, 63, 0.1);
 }
 
 .nav-links {
@@ -573,26 +560,6 @@ td {
 .site-footer h2,
 .site-footer h3 {
   color: var(--white);
-}
-
-.footer-brand {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 6px;
-  margin-bottom: 12px;
-}
-
-.footer-brand img {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  object-fit: cover;
-  background: var(--white);
-}
-
-.footer-brand h2 {
-  margin: 0;
 }
 
 .site-footer a {
