@@ -62,10 +62,21 @@ textarea {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-weight: 800;
   font-size: 1.25rem;
   color: var(--sea-dark);
   white-space: nowrap;
+}
+
+.brand img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 10px 22px rgba(20, 55, 63, 0.12);
 }
 
 .nav-links {
@@ -560,6 +571,25 @@ td {
 .site-footer h2,
 .site-footer h3 {
   color: var(--white);
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.footer-brand img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--white);
+}
+
+.footer-brand h2 {
+  margin: 0;
 }
 
 .site-footer a {
