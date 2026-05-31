@@ -124,7 +124,7 @@ textarea {
   overflow: hidden;
   padding: 5rem 1.5rem 3rem;
   background: linear-gradient(135deg, rgba(10, 60, 130, 0.75), rgba(30, 100, 180, 0.65)),
-    url("socotra-island.jpg") center/cover no-repeat;
+    url("https://raw.githubusercontent.com/socotraairlines/socotraairlines/gh-pages/socotra-island.jpg") center/cover no-repeat;
   background-size: 110%;
   color: #fff;
   animation: heroBgShift 25s ease-in-out infinite;
