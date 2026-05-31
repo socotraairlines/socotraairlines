@@ -348,6 +348,377 @@ const translations = {
   }
 };
 
+const professionalTranslations = {
+  en: {
+    "التنقل الرئيسي": "Main navigation",
+    "فتح القائمة": "Open menu",
+    "اختيار اللغة": "Choose language",
+    "لماذا تختار سقطرى؟": "Why Choose Socotra?",
+    "يشمل البرنامج": "Included",
+    "منظم رحلات إلى جزيرة سقطرى": "Socotra Island Travel Organizer",
+    "رحلات سقطرى 7 أيام بتجربة منظمة لا تُنسى": "7-Day Socotra Trips, Carefully Organized from Start to Finish",
+    "اكتشف جزيرة سقطرى مع برنامج سياحي يشمل التنقلات، المرشد المحلي، الطعام، التخييم، والتنسيق الكامل للرحلة.": "Discover Socotra through a complete travel program with island transfers, a local guide, meals, camping, and full trip coordination.",
+    "تبدأ الأسعار من 1,050$ للشخص للمجموعات": "Group trips start from $1,050 per person",
+    "بدون تذاكر الطيران": "Flights are not included",
+    "شاهد الأسعار": "View Prices",
+    "وجهة مختلفة": "A Different Destination",
+    "طبيعة نادرة": "Rare Nature",
+    "جزيرة بتنوع طبيعي لا يشبه أي وجهة أخرى في المنطقة.": "An island with exceptional natural diversity unlike any other destination in the region.",
+    "شواطئ ساحرة": "Stunning Beaches",
+    "مياه فيروزية ورمال هادئة تمنحك لحظات استرخاء حقيقية.": "Turquoise waters and quiet sands create moments of true relaxation.",
+    "أشجار دم الأخوين": "Dragon Blood Trees",
+    "رمز سقطرى الأجمل وتجربة مشاهدة لا تنسى لمحبي الطبيعة.": "Socotra's most iconic natural symbol, and an unforgettable sight for nature lovers.",
+    "مغامرات وتخييم": "Adventure and Camping",
+    "أيام بين الجبال والوديان والنجوم ضمن تنظيم مريح وواضح.": "Days among mountains, valleys, and starry skies, with clear and comfortable organization.",
+    "تصوير استثنائي": "Exceptional Photography",
+    "مشاهد مناسبة لصناعة ذكريات وصور مبهرة من كل زاوية.": "Landscapes made for lasting memories and striking photos from every angle.",
+    "بعيدًا عن الزحام": "Away from the Crowds",
+    "رحلة هادئة لعشاق الأماكن البكر والتجارب الأصيلة.": "A peaceful journey for travelers who love untouched places and authentic experiences.",
+    "أسعار واضحة": "Clear Pricing",
+    "أسعار برنامج سقطرى 7 أيام بدون تذاكر الطيران": "7-Day Socotra Program Prices, Excluding Flights",
+    "تبدأ الأسعار من 1,050$ للشخص للمجموعات. كلما زاد عدد المسافرين، انخفض السعر للفرد.": "Prices start from $1,050 per person for groups. The larger the group, the lower the per-person rate.",
+    "رحلة خاصة": "Private Trip",
+    "من 2,250$ للشخص": "From $2,250 per person",
+    "خصوصية أكبر وجدول مرن يناسب الأزواج أو المسافرين الفرديين.": "More privacy and a flexible schedule, ideal for couples or solo travelers.",
+    "قروب صغير": "Small Group",
+    "من 1,650$ للشخص": "From $1,650 per person",
+    "مناسب للأصدقاء والعائلات الصغيرة مع توازن بين الراحة والسعر.": "A good fit for friends and small families, balancing comfort and value.",
+    "قروب اقتصادي": "Budget Group",
+    "من 1,050$ للشخص": "From $1,050 per person",
+    "أفضل خيار للحصول على أقل سعر للفرد ضمن مجموعة.": "The best option for the lowest per-person rate within a group.",
+    "الأسعار بدون تذاكر الطيران، وقد تختلف حسب الموسم، توفر الخدمات، ونوع البرنامج. للحصول على عرض نهائي، تواصل معنا عبر واتساب.": "Prices exclude flights and may vary by season, service availability, and program type. Contact us on WhatsApp for a final quote.",
+    "احصل على عرض السعر عبر واتساب": "Get a Quote on WhatsApp",
+    "تفاصيل مهمة": "Important Details",
+    "ماذا يشمل برنامج الرحلة؟": "What Does the Trip Program Include?",
+    "التأشيرة": "Visa",
+    "الاستقبال من المطار": "Airport pickup",
+    "التنقلات داخل الجزيرة": "Transportation across the island",
+    "مرشد سياحي محلي": "Local tour guide",
+    "الطعام": "Meals",
+    "التخييم أو الإقامة حسب البرنامج": "Camping or accommodation, depending on the program",
+    "تنظيم كامل للرحلة": "Full trip organization",
+    "دعم قبل وأثناء الرحلة": "Support before and during the trip",
+    "لا يشمل": "Not Included",
+    "تذاكر الطيران": "Flight tickets",
+    "المصاريف الشخصية": "Personal expenses",
+    "أي خدمات إضافية غير مذكورة في العرض النهائي": "Any additional services not listed in the final offer",
+    "ثقة وتجارب": "Trust and Guest Experiences",
+    "تجارب المسافرين معنا": "Traveler Experiences with Us",
+    "كانت رحلة منظمة جدًا، من الاستقبال حتى آخر يوم. سقطرى أجمل من الصور بكثير.": "The trip was very well organized, from airport pickup to the final day. Socotra is far more beautiful than the photos.",
+    "مسافر من الإمارات": "Traveler from the UAE",
+    "أكثر ما أعجبني هو ترتيب البرنامج والمرشد المحلي. تجربة مختلفة فعلًا.": "What impressed me most was the itinerary planning and the local guide. It was truly a different experience.",
+    "مسافرة من السعودية": "Traveler from Saudi Arabia",
+    "رحلة ممتازة للأصدقاء ومحبي الطبيعة والتصوير. كل شيء كان واضحًا ومنظمًا.": "An excellent trip for friends, nature lovers, and photographers. Everything was clear and well organized.",
+    "مجموعة أصدقاء": "Group of Friends",
+    "قبل الحجز": "Before You Book",
+    "ما أفضل وقت لزيارة سقطرى؟": "What is the best time to visit Socotra?",
+    "عادةً أفضل وقت يكون خلال موسم الرحلات عندما تكون الأجواء مناسبة للتنقل والاستمتاع بالطبيعة. تواصل معنا لمعرفة التواريخ المتاحة.": "The best time is usually during the travel season, when the weather is suitable for moving around the island and enjoying nature. Contact us for available dates.",
+    "هل الأسعار تشمل تذاكر الطيران؟": "Do the prices include flight tickets?",
+    "لا، الأسعار المعروضة بدون تذاكر الطيران.": "No. The listed prices do not include flight tickets.",
+    "هل الرحلة مناسبة للعائلات؟": "Is the trip suitable for families?",
+    "نعم، يمكن ترتيب برنامج مناسب للعائلات حسب عدد الأشخاص ومستوى الراحة المطلوب.": "Yes. We can arrange a family-friendly program based on group size and the preferred comfort level.",
+    "هل يمكن عمل رحلة خاصة؟": "Can I book a private trip?",
+    "نعم، نوفر رحلات خاصة حسب الطلب للأفراد، الأزواج، العائلات، والمجموعات.": "Yes. We arrange private trips on request for solo travelers, couples, families, and groups.",
+    "كيف يتم الحجز؟": "How do I book?",
+    "يمكنك التواصل عبر واتساب، ثم نرسل لك البرنامج والتفاصيل والعرض النهائي حسب عدد الأشخاص وتاريخ السفر.": "Contact us on WhatsApp, then we will send the itinerary, details, and final offer based on your group size and travel date.",
+    "هل السعر يتغير حسب عدد الأشخاص؟": "Does the price change based on the number of travelers?",
+    "نعم، كلما زاد عدد المسافرين، انخفض السعر للفرد.": "Yes. The larger the group, the lower the price per person.",
+    "ابدأ التواصل": "Start the Conversation",
+    "اطلب عرض رحلتك": "Request Your Trip Offer",
+    "عبئ البيانات وسيتم تجهيز رسالة واتساب تلقائيًا لإكمال التواصل مع فريق الحجز.": "Fill in your details and a WhatsApp message will be prepared automatically so you can continue with the booking team.",
+    "الاسم": "Name",
+    "رقم الواتساب": "WhatsApp Number",
+    "عدد الأشخاص": "Number of Travelers",
+    "تاريخ السفر المتوقع": "Expected Travel Date",
+    "نوع الرحلة": "Trip Type",
+    "غير محدد": "Not sure yet",
+    "ملاحظات": "Notes",
+    "إرسال الطلب عبر واتساب": "Send Request on WhatsApp",
+    "طلبات الحجز المحلية": "Local Booking Requests",
+    "تصدير CSV": "Export CSV",
+    "حذف كل الطلبات": "Delete All Requests",
+    "الواتساب": "WhatsApp",
+    "تاريخ السفر": "Travel Date",
+    "التاريخ": "Date",
+    "الحالة": "Status",
+    "وقت الإنشاء": "Created At",
+    "هذه البيانات محفوظة محليًا على هذا الجهاز فقط وليست قاعدة بيانات سحابية.": "This information is saved locally on this device only; it is not stored in a cloud database.",
+    "تواصل": "Contact",
+    "واتساب:": "WhatsApp:",
+    "إنستجرام:": "Instagram:",
+    "روابط سريعة": "Quick Links",
+    "منظم رحلات إلى جزيرة سقطرى، نساعدك في بناء تجربة سفر منظمة من البداية حتى نهاية الرحلة.": "A Socotra Island travel organizer helping you build a smooth, well-coordinated trip from start to finish.",
+    "اكتب اسمك": "Enter your name",
+    "مثال: 9715XXXXXXX": "Example: 9715XXXXXXX",
+    "مثال: 4": "Example: 4",
+    "اكتب أي تفاصيل إضافية": "Add any extra details",
+    "لا توجد طلبات محفوظة حتى الآن.": "No saved requests yet.",
+    "لا توجد طلبات لتصديرها.": "There are no requests to export.",
+    "هل أنت متأكد من حذف كل الطلبات المحلية؟": "Are you sure you want to delete all local requests?",
+    "يرجى تعبئة الاسم، رقم الواتساب، عدد الأشخاص، وتاريخ السفر.": "Please fill in your name, WhatsApp number, number of travelers, and travel date.",
+    "تم تجهيز طلبك، وسيتم تحويلك إلى واتساب لإكمال التواصل.": "Your request is ready. You will be redirected to WhatsApp to continue.",
+    "جديد": "New",
+    "© 2026 socotraAirlines. All rights reserved.": "© 2026 socotraAirlines. All rights reserved."
+  },
+  it: {
+    "التنقل الرئيسي": "Navigazione principale",
+    "فتح القائمة": "Apri menu",
+    "اختيار اللغة": "Seleziona lingua",
+    "الرئيسية": "Home",
+    "لماذا سقطرى؟": "Perché Socotra?",
+    "لماذا تختار سقطرى؟": "Perché scegliere Socotra?",
+    "الأسعار": "Prezzi",
+    "يشمل البرنامج": "Incluso nel programma",
+    "الأسئلة الشائعة": "Domande frequenti",
+    "الحجز": "Prenotazione",
+    "احجز عبر واتساب": "Prenota su WhatsApp",
+    "منظم رحلات إلى جزيرة سقطرى": "Organizzatore di viaggi sull'isola di Socotra",
+    "رحلات سقطرى 7 أيام بتجربة منظمة لا تُنسى": "Viaggi a Socotra di 7 giorni, organizzati con cura dall'inizio alla fine",
+    "اكتشف جزيرة سقطرى مع برنامج سياحي يشمل التنقلات، المرشد المحلي، الطعام، التخييم، والتنسيق الكامل للرحلة.": "Scopri l'isola di Socotra con un programma completo che include trasferimenti sull'isola, guida locale, pasti, campeggio e coordinamento dell'intero viaggio.",
+    "تبدأ الأسعار من 1,050$ للشخص للمجموعات": "I viaggi di gruppo partono da 1.050$ a persona",
+    "بدون تذاكر الطيران": "Voli esclusi",
+    "شاهد الأسعار": "Vedi i prezzi",
+    "وجهة مختلفة": "Una destinazione diversa",
+    "طبيعة نادرة": "Natura rara",
+    "جزيرة بتنوع طبيعي لا يشبه أي وجهة أخرى في المنطقة.": "Un'isola con una biodiversità straordinaria, diversa da qualsiasi altra destinazione della regione.",
+    "شواطئ ساحرة": "Spiagge spettacolari",
+    "مياه فيروزية ورمال هادئة تمنحك لحظات استرخاء حقيقية.": "Acque turchesi e sabbia tranquilla regalano autentici momenti di relax.",
+    "أشجار دم الأخوين": "Alberi del sangue di drago",
+    "رمز سقطرى الأجمل وتجربة مشاهدة لا تنسى لمحبي الطبيعة.": "Il simbolo naturale più iconico di Socotra e uno spettacolo indimenticabile per gli amanti della natura.",
+    "مغامرات وتخييم": "Avventura e campeggio",
+    "أيام بين الجبال والوديان والنجوم ضمن تنظيم مريح وواضح.": "Giorni tra montagne, valli e cieli stellati, con un'organizzazione chiara e confortevole.",
+    "تصوير استثنائي": "Fotografia eccezionale",
+    "مشاهد مناسبة لصناعة ذكريات وصور مبهرة من كل زاوية.": "Paesaggi ideali per creare ricordi duraturi e foto straordinarie da ogni angolazione.",
+    "بعيدًا عن الزحام": "Lontano dalla folla",
+    "رحلة هادئة لعشاق الأماكن البكر والتجارب الأصيلة.": "Un viaggio tranquillo per chi ama luoghi incontaminati ed esperienze autentiche.",
+    "أسعار واضحة": "Prezzi chiari",
+    "أسعار برنامج سقطرى 7 أيام بدون تذاكر الطيران": "Prezzi del programma Socotra di 7 giorni, voli esclusi",
+    "تبدأ الأسعار من 1,050$ للشخص للمجموعات. كلما زاد عدد المسافرين، انخفض السعر للفرد.": "I prezzi partono da 1.050$ a persona per i gruppi. Più grande è il gruppo, più bassa è la quota individuale.",
+    "رحلة خاصة": "Viaggio privato",
+    "من 2,250$ للشخص": "Da 2.250$ a persona",
+    "خصوصية أكبر وجدول مرن يناسب الأزواج أو المسافرين الفرديين.": "Maggiore privacy e un programma flessibile, ideale per coppie o viaggiatori individuali.",
+    "قروب صغير": "Piccolo gruppo",
+    "من 1,650$ للشخص": "Da 1.650$ a persona",
+    "مناسب للأصدقاء والعائلات الصغيرة مع توازن بين الراحة والسعر.": "Ideale per amici e piccole famiglie, con un buon equilibrio tra comfort e valore.",
+    "قروب اقتصادي": "Gruppo conveniente",
+    "من 1,050$ للشخص": "Da 1.050$ a persona",
+    "أفضل خيار للحصول على أقل سعر للفرد ضمن مجموعة.": "L'opzione migliore per ottenere la quota individuale più bassa all'interno di un gruppo.",
+    "الأسعار بدون تذاكر الطيران، وقد تختلف حسب الموسم، توفر الخدمات، ونوع البرنامج. للحصول على عرض نهائي، تواصل معنا عبر واتساب.": "I prezzi non includono i voli e possono variare in base alla stagione, alla disponibilità dei servizi e al tipo di programma. Contattaci su WhatsApp per un preventivo finale.",
+    "احصل على عرض السعر عبر واتساب": "Richiedi un preventivo su WhatsApp",
+    "تفاصيل مهمة": "Dettagli importanti",
+    "ماذا يشمل برنامج الرحلة؟": "Cosa include il programma di viaggio?",
+    "التأشيرة": "Visto",
+    "الاستقبال من المطار": "Accoglienza in aeroporto",
+    "التنقلات داخل الجزيرة": "Trasferimenti sull'isola",
+    "مرشد سياحي محلي": "Guida turistica locale",
+    "الطعام": "Pasti",
+    "التخييم أو الإقامة حسب البرنامج": "Campeggio o alloggio, in base al programma",
+    "تنظيم كامل للرحلة": "Organizzazione completa del viaggio",
+    "دعم قبل وأثناء الرحلة": "Assistenza prima e durante il viaggio",
+    "لا يشمل": "Non incluso",
+    "تذاكر الطيران": "Biglietti aerei",
+    "المصاريف الشخصية": "Spese personali",
+    "أي خدمات إضافية غير مذكورة في العرض النهائي": "Eventuali servizi aggiuntivi non indicati nell'offerta finale",
+    "ثقة وتجارب": "Fiducia ed esperienze",
+    "تجارب المسافرين معنا": "Esperienze dei viaggiatori con noi",
+    "كانت رحلة منظمة جدًا، من الاستقبال حتى آخر يوم. سقطرى أجمل من الصور بكثير.": "Il viaggio è stato organizzato molto bene, dall'accoglienza in aeroporto fino all'ultimo giorno. Socotra è molto più bella che in foto.",
+    "مسافر من الإمارات": "Viaggiatore dagli Emirati Arabi Uniti",
+    "أكثر ما أعجبني هو ترتيب البرنامج والمرشد المحلي. تجربة مختلفة فعلًا.": "Ciò che mi è piaciuto di più è stata l'organizzazione dell'itinerario e la guida locale. Un'esperienza davvero diversa.",
+    "مسافرة من السعودية": "Viaggiatrice dall'Arabia Saudita",
+    "رحلة ممتازة للأصدقاء ومحبي الطبيعة والتصوير. كل شيء كان واضحًا ومنظمًا.": "Un viaggio eccellente per amici, amanti della natura e fotografi. Tutto era chiaro e ben organizzato.",
+    "مجموعة أصدقاء": "Gruppo di amici",
+    "قبل الحجز": "Prima di prenotare",
+    "ما أفضل وقت لزيارة سقطرى؟": "Qual è il periodo migliore per visitare Socotra?",
+    "عادةً أفضل وقت يكون خلال موسم الرحلات عندما تكون الأجواء مناسبة للتنقل والاستمتاع بالطبيعة. تواصل معنا لمعرفة التواريخ المتاحة.": "Il periodo migliore è solitamente durante la stagione dei viaggi, quando il clima è adatto agli spostamenti sull'isola e alla natura. Contattaci per conoscere le date disponibili.",
+    "هل الأسعار تشمل تذاكر الطيران؟": "I prezzi includono i biglietti aerei?",
+    "لا، الأسعار المعروضة بدون تذاكر الطيران.": "No. I prezzi indicati non includono i biglietti aerei.",
+    "هل الرحلة مناسبة للعائلات؟": "Il viaggio è adatto alle famiglie?",
+    "نعم، يمكن ترتيب برنامج مناسب للعائلات حسب عدد الأشخاص ومستوى الراحة المطلوب.": "Sì. Possiamo organizzare un programma adatto alle famiglie in base al numero di persone e al livello di comfort desiderato.",
+    "هل يمكن عمل رحلة خاصة؟": "È possibile prenotare un viaggio privato?",
+    "نعم، نوفر رحلات خاصة حسب الطلب للأفراد، الأزواج، العائلات، والمجموعات.": "Sì. Organizziamo viaggi privati su richiesta per viaggiatori individuali, coppie, famiglie e gruppi.",
+    "كيف يتم الحجز؟": "Come si effettua la prenotazione?",
+    "يمكنك التواصل عبر واتساب، ثم نرسل لك البرنامج والتفاصيل والعرض النهائي حسب عدد الأشخاص وتاريخ السفر.": "Contattaci su WhatsApp; ti invieremo poi itinerario, dettagli e offerta finale in base al numero di persone e alla data del viaggio.",
+    "هل السعر يتغير حسب عدد الأشخاص؟": "Il prezzo cambia in base al numero di viaggiatori?",
+    "نعم، كلما زاد عدد المسافرين، انخفض السعر للفرد.": "Sì. Più grande è il gruppo, più bassa è la quota individuale.",
+    "ابدأ التواصل": "Inizia la conversazione",
+    "اطلب عرض رحلتك": "Richiedi la tua offerta di viaggio",
+    "عبئ البيانات وسيتم تجهيز رسالة واتساب تلقائيًا لإكمال التواصل مع فريق الحجز.": "Compila i dati e verrà preparato automaticamente un messaggio WhatsApp per proseguire con il team prenotazioni.",
+    "الاسم": "Nome",
+    "رقم الواتساب": "Numero WhatsApp",
+    "عدد الأشخاص": "Numero di viaggiatori",
+    "تاريخ السفر المتوقع": "Data prevista del viaggio",
+    "نوع الرحلة": "Tipo di viaggio",
+    "غير محدد": "Non ancora deciso",
+    "ملاحظات": "Note",
+    "إرسال الطلب عبر واتساب": "Invia richiesta su WhatsApp",
+    "طلبات الحجز المحلية": "Richieste di prenotazione locali",
+    "تصدير CSV": "Esporta CSV",
+    "حذف كل الطلبات": "Elimina tutte le richieste",
+    "الواتساب": "WhatsApp",
+    "تاريخ السفر": "Data del viaggio",
+    "التاريخ": "Data",
+    "الحالة": "Stato",
+    "وقت الإنشاء": "Creato il",
+    "هذه البيانات محفوظة محليًا على هذا الجهاز فقط وليست قاعدة بيانات سحابية.": "Queste informazioni sono salvate solo su questo dispositivo; non vengono archiviate in un database cloud.",
+    "تواصل": "Contatti",
+    "واتساب:": "WhatsApp:",
+    "إنستجرام:": "Instagram:",
+    "روابط سريعة": "Link rapidi",
+    "منظم رحلات إلى جزيرة سقطرى، نساعدك في بناء تجربة سفر منظمة من البداية حتى نهاية الرحلة.": "Organizziamo viaggi sull'isola di Socotra e ti aiutiamo a creare un'esperienza fluida e ben coordinata dall'inizio alla fine.",
+    "اكتب اسمك": "Inserisci il tuo nome",
+    "مثال: 9715XXXXXXX": "Esempio: 9715XXXXXXX",
+    "مثال: 4": "Esempio: 4",
+    "اكتب أي تفاصيل إضافية": "Aggiungi eventuali dettagli",
+    "لا توجد طلبات محفوظة حتى الآن.": "Non ci sono ancora richieste salvate.",
+    "لا توجد طلبات لتصديرها.": "Non ci sono richieste da esportare.",
+    "هل أنت متأكد من حذف كل الطلبات المحلية؟": "Sei sicuro di voler eliminare tutte le richieste locali?",
+    "يرجى تعبئة الاسم، رقم الواتساب، عدد الأشخاص، وتاريخ السفر.": "Inserisci nome, numero WhatsApp, numero di viaggiatori e data del viaggio.",
+    "تم تجهيز طلبك، وسيتم تحويلك إلى واتساب لإكمال التواصل.": "La tua richiesta è pronta. Verrai reindirizzato a WhatsApp per continuare.",
+    "جديد": "Nuova",
+    "© 2026 socotraAirlines. All rights reserved.": "© 2026 socotraAirlines. Tutti i diritti riservati."
+  },
+  ru: {
+    "التنقل الرئيسي": "Основная навигация",
+    "فتح القائمة": "Открыть меню",
+    "اختيار اللغة": "Выбор языка",
+    "الرئيسية": "Главная",
+    "لماذا سقطرى؟": "Почему Сокотра?",
+    "لماذا تختار سقطرى؟": "Почему стоит выбрать Сокотру?",
+    "الأسعار": "Цены",
+    "يشمل البرنامج": "Что включено",
+    "الأسئلة الشائعة": "Частые вопросы",
+    "الحجز": "Бронирование",
+    "احجز عبر واتساب": "Забронировать в WhatsApp",
+    "منظم رحلات إلى جزيرة سقطرى": "Организатор путешествий на остров Сокотра",
+    "رحلات سقطرى 7 أيام بتجربة منظمة لا تُنسى": "7-дневные путешествия на Сокотру с продуманной организацией от начала до конца",
+    "اكتشف جزيرة سقطرى مع برنامج سياحي يشمل التنقلات، المرشد المحلي، الطعام، التخييم، والتنسيق الكامل للرحلة.": "Откройте для себя Сокотру с полной программой: трансферы по острову, местный гид, питание, кемпинг и полная координация поездки.",
+    "تبدأ الأسعار من 1,050$ للشخص للمجموعات": "Групповые поездки начинаются от 1 050$ за человека",
+    "بدون تذاكر الطيران": "Авиабилеты не включены",
+    "شاهد الأسعار": "Посмотреть цены",
+    "وجهة مختلفة": "Особое направление",
+    "طبيعة نادرة": "Редкая природа",
+    "جزيرة بتنوع طبيعي لا يشبه أي وجهة أخرى في المنطقة.": "Остров с исключительным природным разнообразием, не похожий ни на одно другое направление в регионе.",
+    "شواطئ ساحرة": "Потрясающие пляжи",
+    "مياه فيروزية ورمال هادئة تمنحك لحظات استرخاء حقيقية.": "Бирюзовая вода и спокойные пляжи дарят настоящее чувство отдыха.",
+    "أشجار دم الأخوين": "Драконовы деревья",
+    "رمز سقطرى الأجمل وتجربة مشاهدة لا تنسى لمحبي الطبيعة.": "Самый узнаваемый природный символ Сокотры и незабываемое зрелище для любителей природы.",
+    "مغامرات وتخييم": "Приключения и кемпинг",
+    "أيام بين الجبال والوديان والنجوم ضمن تنظيم مريح وواضح.": "Дни среди гор, долин и звездного неба с понятной и комфортной организацией.",
+    "تصوير استثنائي": "Идеальные места для фото",
+    "مشاهد مناسبة لصناعة ذكريات وصور مبهرة من كل زاوية.": "Пейзажи, которые создают яркие воспоминания и впечатляющие кадры с любого ракурса.",
+    "بعيدًا عن الزحام": "Вдали от толпы",
+    "رحلة هادئة لعشاق الأماكن البكر والتجارب الأصيلة.": "Спокойное путешествие для тех, кто ценит нетронутые места и подлинные впечатления.",
+    "أسعار واضحة": "Прозрачные цены",
+    "أسعار برنامج سقطرى 7 أيام بدون تذاكر الطيران": "Цены на 7-дневную программу Сокотры без авиабилетов",
+    "تبدأ الأسعار من 1,050$ للشخص للمجموعات. كلما زاد عدد المسافرين، انخفض السعر للفرد.": "Цены для групп начинаются от 1 050$ за человека. Чем больше группа, тем ниже стоимость на одного путешественника.",
+    "رحلة خاصة": "Индивидуальная поездка",
+    "من 2,250$ للشخص": "От 2 250$ за человека",
+    "خصوصية أكبر وجدول مرن يناسب الأزواج أو المسافرين الفرديين.": "Больше приватности и гибкий график, идеально для пар или индивидуальных путешественников.",
+    "قروب صغير": "Небольшая группа",
+    "من 1,650$ للشخص": "От 1 650$ за человека",
+    "مناسب للأصدقاء والعائلات الصغيرة مع توازن بين الراحة والسعر.": "Подходит для друзей и небольших семей, сочетая комфорт и выгодную стоимость.",
+    "قروب اقتصادي": "Экономичная группа",
+    "من 1,050$ للشخص": "От 1 050$ за человека",
+    "أفضل خيار للحصول على أقل سعر للفرد ضمن مجموعة.": "Лучший вариант для минимальной стоимости на человека в составе группы.",
+    "الأسعار بدون تذاكر الطيران، وقد تختلف حسب الموسم، توفر الخدمات، ونوع البرنامج. للحصول على عرض نهائي، تواصل معنا عبر واتساب.": "Цены указаны без авиабилетов и могут меняться в зависимости от сезона, доступности услуг и типа программы. Напишите нам в WhatsApp, чтобы получить финальное предложение.",
+    "احصل على عرض السعر عبر واتساب": "Получить расчет в WhatsApp",
+    "تفاصيل مهمة": "Важные детали",
+    "ماذا يشمل برنامج الرحلة؟": "Что входит в программу поездки?",
+    "التأشيرة": "Виза",
+    "الاستقبال من المطار": "Встреча в аэропорту",
+    "التنقلات داخل الجزيرة": "Трансферы по острову",
+    "مرشد سياحي محلي": "Местный туристический гид",
+    "الطعام": "Питание",
+    "التخييم أو الإقامة حسب البرنامج": "Кемпинг или проживание в зависимости от программы",
+    "تنظيم كامل للرحلة": "Полная организация поездки",
+    "دعم قبل وأثناء الرحلة": "Поддержка до и во время поездки",
+    "لا يشمل": "Не включено",
+    "تذاكر الطيران": "Авиабилеты",
+    "المصاريف الشخصية": "Личные расходы",
+    "أي خدمات إضافية غير مذكورة في العرض النهائي": "Любые дополнительные услуги, не указанные в финальном предложении",
+    "ثقة وتجارب": "Доверие и опыт гостей",
+    "تجارب المسافرين معنا": "Отзывы наших путешественников",
+    "كانت رحلة منظمة جدًا، من الاستقبال حتى آخر يوم. سقطرى أجمل من الصور بكثير.": "Поездка была очень хорошо организована: от встречи в аэропорту до последнего дня. Сокотра намного красивее, чем на фотографиях.",
+    "مسافر من الإمارات": "Путешественник из ОАЭ",
+    "أكثر ما أعجبني هو ترتيب البرنامج والمرشد المحلي. تجربة مختلفة فعلًا.": "Больше всего понравились продуманный маршрут и местный гид. Это действительно необычный опыт.",
+    "مسافرة من السعودية": "Путешественница из Саудовской Аравии",
+    "رحلة ممتازة للأصدقاء ومحبي الطبيعة والتصوير. كل شيء كان واضحًا ومنظمًا.": "Отличная поездка для друзей, любителей природы и фотографии. Все было понятно и хорошо организовано.",
+    "مجموعة أصدقاء": "Группа друзей",
+    "قبل الحجز": "Перед бронированием",
+    "ما أفضل وقت لزيارة سقطرى؟": "Когда лучше всего посетить Сокотру?",
+    "عادةً أفضل وقت يكون خلال موسم الرحلات عندما تكون الأجواء مناسبة للتنقل والاستمتاع بالطبيعة. تواصل معنا لمعرفة التواريخ المتاحة.": "Лучшее время обычно приходится на туристический сезон, когда погода подходит для поездок по острову и знакомства с природой. Свяжитесь с нами, чтобы узнать доступные даты.",
+    "هل الأسعار تشمل تذاكر الطيران؟": "Включают ли цены авиабилеты?",
+    "لا، الأسعار المعروضة بدون تذاكر الطيران.": "Нет. Указанные цены не включают авиабилеты.",
+    "هل الرحلة مناسبة للعائلات؟": "Подходит ли поездка для семей?",
+    "نعم، يمكن ترتيب برنامج مناسب للعائلات حسب عدد الأشخاص ومستوى الراحة المطلوب.": "Да. Мы можем подготовить семейную программу с учетом количества человек и желаемого уровня комфорта.",
+    "هل يمكن عمل رحلة خاصة؟": "Можно ли забронировать индивидуальную поездку?",
+    "نعم، نوفر رحلات خاصة حسب الطلب للأفراد، الأزواج، العائلات، والمجموعات.": "Да. Мы организуем индивидуальные поездки по запросу для одного путешественника, пар, семей и групп.",
+    "كيف يتم الحجز؟": "Как проходит бронирование?",
+    "يمكنك التواصل عبر واتساب، ثم نرسل لك البرنامج والتفاصيل والعرض النهائي حسب عدد الأشخاص وتاريخ السفر.": "Напишите нам в WhatsApp, и мы отправим маршрут, детали и финальное предложение с учетом размера группы и даты поездки.",
+    "هل السعر يتغير حسب عدد الأشخاص؟": "Меняется ли цена в зависимости от количества человек?",
+    "نعم، كلما زاد عدد المسافرين، انخفض السعر للفرد.": "Да. Чем больше группа, тем ниже стоимость на одного человека.",
+    "ابدأ التواصل": "Начать общение",
+    "اطلب عرض رحلتك": "Запросить предложение по поездке",
+    "عبئ البيانات وسيتم تجهيز رسالة واتساب تلقائيًا لإكمال التواصل مع فريق الحجز.": "Заполните данные, и сообщение WhatsApp будет подготовлено автоматически, чтобы продолжить общение с командой бронирования.",
+    "الاسم": "Имя",
+    "رقم الواتساب": "Номер WhatsApp",
+    "عدد الأشخاص": "Количество путешественников",
+    "تاريخ السفر المتوقع": "Ожидаемая дата поездки",
+    "نوع الرحلة": "Тип поездки",
+    "غير محدد": "Пока не решил(а)",
+    "ملاحظات": "Примечания",
+    "إرسال الطلب عبر واتساب": "Отправить запрос в WhatsApp",
+    "طلبات الحجز المحلية": "Локальные заявки на бронирование",
+    "تصدير CSV": "Экспорт CSV",
+    "حذف كل الطلبات": "Удалить все заявки",
+    "الواتساب": "WhatsApp",
+    "تاريخ السفر": "Дата поездки",
+    "التاريخ": "Дата",
+    "الحالة": "Статус",
+    "وقت الإنشاء": "Создано",
+    "هذه البيانات محفوظة محليًا على هذا الجهاز فقط وليست قاعدة بيانات سحابية.": "Эта информация сохраняется только на данном устройстве; она не хранится в облачной базе данных.",
+    "تواصل": "Контакты",
+    "واتساب:": "WhatsApp:",
+    "إنستجرام:": "Instagram:",
+    "روابط سريعة": "Быстрые ссылки",
+    "منظم رحلات إلى جزيرة سقطرى، نساعدك في بناء تجربة سفر منظمة من البداية حتى نهاية الرحلة.": "Мы организуем путешествия на остров Сокотра и помогаем создать спокойную, продуманную поездку от начала до конца.",
+    "اكتب اسمك": "Введите ваше имя",
+    "مثال: 9715XXXXXXX": "Пример: 9715XXXXXXX",
+    "مثال: 4": "Пример: 4",
+    "اكتب أي تفاصيل إضافية": "Добавьте любые дополнительные детали",
+    "لا توجد طلبات محفوظة حتى الآن.": "Сохраненных заявок пока нет.",
+    "لا توجد طلبات لتصديرها.": "Нет заявок для экспорта.",
+    "هل أنت متأكد من حذف كل الطلبات المحلية؟": "Вы уверены, что хотите удалить все локальные заявки?",
+    "يرجى تعبئة الاسم، رقم الواتساب، عدد الأشخاص، وتاريخ السفر.": "Пожалуйста, укажите имя, номер WhatsApp, количество путешественников и дату поездки.",
+    "تم تجهيز طلبك، وسيتم تحويلك إلى واتساب لإكمال التواصل.": "Ваш запрос готов. Вы будете перенаправлены в WhatsApp для продолжения.",
+    "جديد": "Новая",
+    "© 2026 socotraAirlines. All rights reserved.": "© 2026 socotraAirlines. Все права защищены."
+  }
+};
+
+Object.entries(professionalTranslations).forEach(([language, dictionary]) => {
+  translations[language] = { ...(translations[language] || {}), ...dictionary };
+});
+
+const pageMeta = {
+  ar: {
+    title: "socotraAirlines | رحلات سقطرى",
+    description: "رحلات سقطرى 7 أيام مع socotraAirlines، برامج سياحية منظمة وأسعار واضحة وحجز عبر واتساب."
+  },
+  en: {
+    title: "socotraAirlines | Socotra Trips",
+    description: "7-day Socotra trips with socotraAirlines, organized travel programs, clear prices, and WhatsApp booking."
+  },
+  it: {
+    title: "socotraAirlines | Viaggi a Socotra",
+    description: "Viaggi a Socotra di 7 giorni con socotraAirlines, programmi organizzati, prezzi chiari e prenotazione via WhatsApp."
+  },
+  ru: {
+    title: "socotraAirlines | Путешествия на Сокотру",
+    description: "7-дневные путешествия на Сокотру с socotraAirlines: организованные программы, прозрачные цены и бронирование через WhatsApp."
+  }
+};
+
 let currentLanguage = localStorage.getItem(LANGUAGE_KEY) || "ar";
 
 const messages = {
@@ -402,7 +773,7 @@ function renderLeads() {
 
   const leads = getLeads();
   if (!leads.length) {
-    tableBody.innerHTML = `<tr><td colspan="6">لا توجد طلبات محفوظة حتى الآن.</td></tr>`;
+    tableBody.innerHTML = `<tr><td colspan="6">${t("لا توجد طلبات محفوظة حتى الآن.")}</td></tr>`;
     return;
   }
 
@@ -412,8 +783,8 @@ function renderLeads() {
       <td>${escapeHtml(lead.phone)}</td>
       <td>${escapeHtml(lead.people)}</td>
       <td>${escapeHtml(lead.travelDate)}</td>
-      <td>${escapeHtml(lead.tripType)}</td>
-      <td>${escapeHtml(lead.status)}</td>
+      <td>${escapeHtml(t(lead.tripType))}</td>
+      <td>${escapeHtml(t(lead.status))}</td>
     </tr>
   `).join("");
 }
@@ -421,11 +792,11 @@ function renderLeads() {
 function exportCsv() {
   const leads = getLeads();
   if (!leads.length) {
-    alert("لا توجد طلبات لتصديرها.");
+    alert(t("لا توجد طلبات لتصديرها."));
     return;
   }
 
-  const headers = ["الاسم", "الواتساب", "عدد الأشخاص", "تاريخ السفر", "نوع الرحلة", "الحالة", "ملاحظات", "وقت الإنشاء"];
+  const headers = ["الاسم", "الواتساب", "عدد الأشخاص", "تاريخ السفر", "نوع الرحلة", "الحالة", "ملاحظات", "وقت الإنشاء"].map(t);
   const rows = leads.map((lead) => [
     lead.name,
     lead.phone,
@@ -453,7 +824,7 @@ function exportCsv() {
 }
 
 function clearLeads() {
-  const confirmed = confirm("هل أنت متأكد من حذف كل الطلبات المحلية؟");
+  const confirmed = confirm(t("هل أنت متأكد من حذف كل الطلبات المحلية؟"));
   if (!confirmed) return;
   localStorage.removeItem(STORAGE_KEY);
   renderLeads();
@@ -488,11 +859,20 @@ function translateValue(value, language) {
   return dictionary[normalizeText(value)] || value;
 }
 
+function t(value) {
+  return translateValue(value, currentLanguage);
+}
+
 function applyLanguage(language) {
   currentLanguage = language;
   localStorage.setItem(LANGUAGE_KEY, language);
   document.documentElement.lang = language;
   document.documentElement.dir = language === "ar" ? "rtl" : "ltr";
+  document.title = pageMeta[language]?.title || pageMeta.ar.title;
+  document.querySelector("meta[name='description']")?.setAttribute(
+    "content",
+    pageMeta[language]?.description || pageMeta.ar.description
+  );
 
   document.querySelectorAll("body *").forEach((element) => {
     if (element.closest("script, style") || element.id === "languageSelect") return;
@@ -523,7 +903,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (languageSelect) {
     languageSelect.value = currentLanguage;
-    languageSelect.addEventListener("change", () => applyLanguage(languageSelect.value));
+    languageSelect.addEventListener("change", () => {
+      applyLanguage(languageSelect.value);
+      renderLeads();
+    });
     applyLanguage(currentLanguage);
   }
 
@@ -562,7 +945,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     if (!lead.name || !lead.phone || !lead.people || !lead.travelDate) {
-      formMessage.textContent = "يرجى تعبئة الاسم، رقم الواتساب، عدد الأشخاص، وتاريخ السفر.";
+      formMessage.textContent = t("يرجى تعبئة الاسم، رقم الواتساب، عدد الأشخاص، وتاريخ السفر.");
       formMessage.classList.remove("success");
       return;
     }
@@ -570,7 +953,7 @@ document.addEventListener("DOMContentLoaded", () => {
     addLead(lead);
     renderLeads();
     form.reset();
-    formMessage.textContent = "تم تجهيز طلبك، وسيتم تحويلك إلى واتساب لإكمال التواصل.";
+    formMessage.textContent = t("تم تجهيز طلبك، وسيتم تحويلك إلى واتساب لإكمال التواصل.");
     formMessage.classList.add("success");
     openWhatsApp(buildBookingMessage(lead));
   });
